@@ -1,0 +1,125 @@
+[15-Jun-2016 05:35:29 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /var/www/vhosts/tomaldy.com/httpdocs/websites/keepanopenmind/community/habbowood/app/config.php on line 9
+[15-Jun-2016 05:35:29 UTC] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /var/www/vhosts/tomaldy.com/httpdocs/websites/keepanopenmind/community/habbowood/app/config.php on line 9
+[27-Jun-2016 14:32:56 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /var/www/vhosts/tomaldy.com/httpdocs/websites/keepanopenmind/community/habbowood/app/config.php on line 9
+[27-Jun-2016 14:32:56 UTC] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /var/www/vhosts/tomaldy.com/httpdocs/websites/keepanopenmind/community/habbowood/app/config.php on line 9
+[27-Jun-2016 14:32:56 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /var/www/vhosts/tomaldy.com/httpdocs/websites/keepanopenmind/community/habbowood/app/config.php on line 9
+[27-Jun-2016 14:32:56 UTC] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /var/www/vhosts/tomaldy.com/httpdocs/websites/keepanopenmind/community/habbowood/app/config.php on line 9
+[10-Aug-2016 13:20:59 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /var/www/vhosts/tomaldy.com/httpdocs/websites/keepanopenmind/community/habbowood/app/config.php on line 9
+[10-Aug-2016 13:20:59 UTC] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /var/www/vhosts/tomaldy.com/httpdocs/websites/keepanopenmind/community/habbowood/app/config.php on line 9
+[10-Aug-2016 13:21:04 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /var/www/vhosts/tomaldy.com/httpdocs/websites/keepanopenmind/community/habbowood/app/config.php on line 9
+[10-Aug-2016 13:21:04 UTC] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /var/www/vhosts/tomaldy.com/httpdocs/websites/keepanopenmind/community/habbowood/app/config.php on line 9
+[10-Aug-2016 13:21:09 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /var/www/vhosts/tomaldy.com/httpdocs/websites/keepanopenmind/community/habbowood/app/config.php on line 9
+[10-Aug-2016 13:21:09 UTC] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /var/www/vhosts/tomaldy.com/httpdocs/websites/keepanopenmind/community/habbowood/app/config.php on line 9
+[10-Sep-2016 14:29:15 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /var/www/vhosts/tomaldy.com/httpdocs/websites/keepanopenmind/community/habbowood/app/config.php on line 9
+[10-Sep-2016 14:29:15 UTC] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /var/www/vhosts/tomaldy.com/httpdocs/websites/keepanopenmind/community/habbowood/app/config.php on line 9
+[10-Sep-2016 14:29:19 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /var/www/vhosts/tomaldy.com/httpdocs/websites/keepanopenmind/community/habbowood/app/config.php on line 9
+[10-Sep-2016 14:29:19 UTC] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /var/www/vhosts/tomaldy.com/httpdocs/websites/keepanopenmind/community/habbowood/app/config.php on line 9
+[30-Sep-2016 12:47:09 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /var/www/vhosts/tomaldy.com/httpdocs/websites/keepanopenmind/community/habbowood/app/config.php on line 9
+[30-Sep-2016 12:47:10 UTC] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /var/www/vhosts/tomaldy.com/httpdocs/websites/keepanopenmind/community/habbowood/app/config.php on line 9
+[03-May-2017 14:55:13 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /var/www/vhosts/tomaldy.com/httpdocs/websites/keepanopenmind/community/habbowood/app/config.php on line 9
+[03-May-2017 14:55:13 UTC] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /var/www/vhosts/tomaldy.com/httpdocs/websites/keepanopenmind/community/habbowood/app/config.php on line 9
+[03-May-2017 14:55:13 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /var/www/vhosts/tomaldy.com/httpdocs/websites/keepanopenmind/community/habbowood/app/config.php on line 9
+[03-May-2017 14:55:13 UTC] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /var/www/vhosts/tomaldy.com/httpdocs/websites/keepanopenmind/community/habbowood/app/config.php on line 9
+[08-Jun-2017 05:42:46 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /var/www/vhosts/tomaldy.com/httpdocs/websites/keepanopenmind/community/habbowood/app/config.php on line 9
+[08-Jun-2017 05:42:46 UTC] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /var/www/vhosts/tomaldy.com/httpdocs/websites/keepanopenmind/community/habbowood/app/config.php on line 9
+[08-Jun-2017 05:42:48 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /var/www/vhosts/tomaldy.com/httpdocs/websites/keepanopenmind/community/habbowood/app/config.php on line 9
+[08-Jun-2017 05:42:48 UTC] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /var/www/vhosts/tomaldy.com/httpdocs/websites/keepanopenmind/community/habbowood/app/config.php on line 9
+[06-Aug-2017 12:01:28 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /var/www/vhosts/tomaldy.com/httpdocs/websites/keepanopenmind/community/habbowood/app/config.php on line 9
+[06-Aug-2017 12:01:28 UTC] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /var/www/vhosts/tomaldy.com/httpdocs/websites/keepanopenmind/community/habbowood/app/config.php on line 9
+[06-Aug-2017 12:01:28 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /var/www/vhosts/tomaldy.com/httpdocs/websites/keepanopenmind/community/habbowood/app/config.php on line 9
+[06-Aug-2017 12:01:28 UTC] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /var/www/vhosts/tomaldy.com/httpdocs/websites/keepanopenmind/community/habbowood/app/config.php on line 9
+[25-Apr-2018 10:28:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /var/www/vhosts/tomaldy.com/httpdocs/websites/keepanopenmind/community/habbowood/app/config.php:9
+Stack trace:
+#0 /var/www/vhosts/tomaldy.com/httpdocs/websites/keepanopenmind/community/habbowood/app/event.php(6): require()
+#1 {main}
+  thrown in /var/www/vhosts/tomaldy.com/httpdocs/websites/keepanopenmind/community/habbowood/app/config.php on line 9
+[25-Apr-2018 10:29:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /var/www/vhosts/tomaldy.com/httpdocs/websites/keepanopenmind/community/habbowood/app/config.php:9
+Stack trace:
+#0 /var/www/vhosts/tomaldy.com/httpdocs/websites/keepanopenmind/community/habbowood/app/event.php(6): require()
+#1 {main}
+  thrown in /var/www/vhosts/tomaldy.com/httpdocs/websites/keepanopenmind/community/habbowood/app/config.php on line 9
+[24-May-2018 07:54:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /var/www/vhosts/tomaldy.com/httpdocs/websites/keepanopenmind/community/habbowood/app/config.php:9
+Stack trace:
+#0 /var/www/vhosts/tomaldy.com/httpdocs/websites/keepanopenmind/community/habbowood/app/event.php(6): require()
+#1 {main}
+  thrown in /var/www/vhosts/tomaldy.com/httpdocs/websites/keepanopenmind/community/habbowood/app/config.php on line 9
+[24-May-2018 07:54:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /var/www/vhosts/tomaldy.com/httpdocs/websites/keepanopenmind/community/habbowood/app/config.php:9
+Stack trace:
+#0 /var/www/vhosts/tomaldy.com/httpdocs/websites/keepanopenmind/community/habbowood/app/event.php(6): require()
+#1 {main}
+  thrown in /var/www/vhosts/tomaldy.com/httpdocs/websites/keepanopenmind/community/habbowood/app/config.php on line 9
+[24-Jun-2018 16:55:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /var/www/vhosts/tomaldy.com/httpdocs/websites/keepanopenmind/community/habbowood/app/config.php:9
+Stack trace:
+#0 /var/www/vhosts/tomaldy.com/httpdocs/websites/keepanopenmind/community/habbowood/app/event.php(6): require()
+#1 {main}
+  thrown in /var/www/vhosts/tomaldy.com/httpdocs/websites/keepanopenmind/community/habbowood/app/config.php on line 9
+[24-Jun-2018 16:56:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /var/www/vhosts/tomaldy.com/httpdocs/websites/keepanopenmind/community/habbowood/app/config.php:9
+Stack trace:
+#0 /var/www/vhosts/tomaldy.com/httpdocs/websites/keepanopenmind/community/habbowood/app/event.php(6): require()
+#1 {main}
+  thrown in /var/www/vhosts/tomaldy.com/httpdocs/websites/keepanopenmind/community/habbowood/app/config.php on line 9
+[04-Sep-2018 13:50:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /var/www/vhosts/tomaldy.com/httpdocs/websites/keepanopenmind/community/habbowood/app/config.php:9
+Stack trace:
+#0 /var/www/vhosts/tomaldy.com/httpdocs/websites/keepanopenmind/community/habbowood/app/event.php(6): require()
+#1 {main}
+  thrown in /var/www/vhosts/tomaldy.com/httpdocs/websites/keepanopenmind/community/habbowood/app/config.php on line 9
+[04-Sep-2018 13:50:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /var/www/vhosts/tomaldy.com/httpdocs/websites/keepanopenmind/community/habbowood/app/config.php:9
+Stack trace:
+#0 /var/www/vhosts/tomaldy.com/httpdocs/websites/keepanopenmind/community/habbowood/app/event.php(6): require()
+#1 {main}
+  thrown in /var/www/vhosts/tomaldy.com/httpdocs/websites/keepanopenmind/community/habbowood/app/config.php on line 9
+[04-Sep-2018 13:51:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /var/www/vhosts/tomaldy.com/httpdocs/websites/keepanopenmind/community/habbowood/app/config.php:9
+Stack trace:
+#0 /var/www/vhosts/tomaldy.com/httpdocs/websites/keepanopenmind/community/habbowood/app/event.php(6): require()
+#1 {main}
+  thrown in /var/www/vhosts/tomaldy.com/httpdocs/websites/keepanopenmind/community/habbowood/app/config.php on line 9
+[05-Sep-2018 07:40:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /var/www/vhosts/tomaldy.com/httpdocs/websites/keepanopenmind/community/habbowood/app/config.php:9
+Stack trace:
+#0 /var/www/vhosts/tomaldy.com/httpdocs/websites/keepanopenmind/community/habbowood/app/event.php(6): require()
+#1 {main}
+  thrown in /var/www/vhosts/tomaldy.com/httpdocs/websites/keepanopenmind/community/habbowood/app/config.php on line 9
+[05-Sep-2018 08:25:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /var/www/vhosts/tomaldy.com/httpdocs/websites/keepanopenmind/community/habbowood/app/config.php:9
+Stack trace:
+#0 /var/www/vhosts/tomaldy.com/httpdocs/websites/keepanopenmind/community/habbowood/app/event.php(6): require()
+#1 {main}
+  thrown in /var/www/vhosts/tomaldy.com/httpdocs/websites/keepanopenmind/community/habbowood/app/config.php on line 9
+[05-Sep-2018 09:02:27 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /var/www/vhosts/tomaldy.com/httpdocs/websites/keepanopenmind/community/habbowood/app/config.php:9
+Stack trace:
+#0 /var/www/vhosts/tomaldy.com/httpdocs/websites/keepanopenmind/community/habbowood/app/event.php(6): require()
+#1 {main}
+  thrown in /var/www/vhosts/tomaldy.com/httpdocs/websites/keepanopenmind/community/habbowood/app/config.php on line 9
+[16-Sep-2018 09:50:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /var/www/vhosts/tomaldy.com/httpdocs/websites/keepanopenmind/community/habbowood/app/config.php:9
+Stack trace:
+#0 /var/www/vhosts/tomaldy.com/httpdocs/websites/keepanopenmind/community/habbowood/app/event.php(6): require()
+#1 {main}
+  thrown in /var/www/vhosts/tomaldy.com/httpdocs/websites/keepanopenmind/community/habbowood/app/config.php on line 9
+[16-Sep-2018 09:56:38 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /var/www/vhosts/tomaldy.com/httpdocs/websites/keepanopenmind/community/habbowood/app/config.php:9
+Stack trace:
+#0 /var/www/vhosts/tomaldy.com/httpdocs/websites/keepanopenmind/community/habbowood/app/event.php(6): require()
+#1 {main}
+  thrown in /var/www/vhosts/tomaldy.com/httpdocs/websites/keepanopenmind/community/habbowood/app/config.php on line 9
+[14-Nov-2018 10:36:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /var/www/vhosts/tomaldy.com/httpdocs/websites/keepanopenmind/community/habbowood/app/config.php:9
+Stack trace:
+#0 /var/www/vhosts/tomaldy.com/httpdocs/websites/keepanopenmind/community/habbowood/app/event.php(6): require()
+#1 {main}
+  thrown in /var/www/vhosts/tomaldy.com/httpdocs/websites/keepanopenmind/community/habbowood/app/config.php on line 9
+[14-Nov-2018 10:36:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /var/www/vhosts/tomaldy.com/httpdocs/websites/keepanopenmind/community/habbowood/app/config.php:9
+Stack trace:
+#0 /var/www/vhosts/tomaldy.com/httpdocs/websites/keepanopenmind/community/habbowood/app/event.php(6): require()
+#1 {main}
+  thrown in /var/www/vhosts/tomaldy.com/httpdocs/websites/keepanopenmind/community/habbowood/app/config.php on line 9
+[14-Nov-2018 10:36:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /var/www/vhosts/tomaldy.com/httpdocs/websites/keepanopenmind/community/habbowood/app/config.php:9
+Stack trace:
+#0 /var/www/vhosts/tomaldy.com/httpdocs/websites/keepanopenmind/community/habbowood/app/event.php(6): require()
+#1 {main}
+  thrown in /var/www/vhosts/tomaldy.com/httpdocs/websites/keepanopenmind/community/habbowood/app/config.php on line 9
+[19-Nov-2018 22:01:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /var/www/vhosts/tomaldy.com/httpdocs/websites/keepanopenmind/community/habbowood/app/config.php:9
+Stack trace:
+#0 /var/www/vhosts/tomaldy.com/httpdocs/websites/keepanopenmind/community/habbowood/app/event.php(6): require()
+#1 {main}
+  thrown in /var/www/vhosts/tomaldy.com/httpdocs/websites/keepanopenmind/community/habbowood/app/config.php on line 9
+[19-Nov-2018 22:01:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /var/www/vhosts/tomaldy.com/httpdocs/websites/keepanopenmind/community/habbowood/app/config.php:9
+Stack trace:
+#0 /var/www/vhosts/tomaldy.com/httpdocs/websites/keepanopenmind/community/habbowood/app/event.php(6): require()
+#1 {main}
+  thrown in /var/www/vhosts/tomaldy.com/httpdocs/websites/keepanopenmind/community/habbowood/app/config.php on line 9

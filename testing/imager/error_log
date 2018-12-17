@@ -1,0 +1,21 @@
+[15-Apr-2017 20:33:48 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/vhosts/tomaldy.com/httpdocs/testing/imager/resource_update.php:99) in /var/www/vhosts/tomaldy.com/httpdocs/testing/imager/resource_update.php on line 109
+[15-Apr-2017 20:33:49 UTC] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/tomaldy.com/httpdocs/testing/imager/resource_update.php on line 492
+[15-Apr-2017 20:33:49 UTC] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/tomaldy.com/httpdocs/testing/imager/resource_update.php on line 492
+[15-Apr-2017 20:33:49 UTC] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/tomaldy.com/httpdocs/testing/imager/resource_update.php on line 492
+[15-Apr-2017 20:33:49 UTC] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/tomaldy.com/httpdocs/testing/imager/resource_update.php on line 507
+[15-Apr-2017 20:33:49 UTC] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/tomaldy.com/httpdocs/testing/imager/resource_update.php on line 507
+[15-Apr-2017 20:33:49 UTC] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/tomaldy.com/httpdocs/testing/imager/resource_update.php on line 507
+[16-Apr-2017 05:57:52 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/vhosts/tomaldy.com/httpdocs/testing/imager/resource_update.php:99) in /var/www/vhosts/tomaldy.com/httpdocs/testing/imager/resource_update.php on line 109
+[16-Apr-2017 05:57:54 UTC] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/tomaldy.com/httpdocs/testing/imager/resource_update.php on line 492
+[16-Apr-2017 05:57:54 UTC] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/tomaldy.com/httpdocs/testing/imager/resource_update.php on line 492
+[16-Apr-2017 05:57:54 UTC] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/tomaldy.com/httpdocs/testing/imager/resource_update.php on line 492
+[16-Apr-2017 05:57:54 UTC] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/tomaldy.com/httpdocs/testing/imager/resource_update.php on line 507
+[16-Apr-2017 05:57:54 UTC] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/tomaldy.com/httpdocs/testing/imager/resource_update.php on line 507
+[16-Apr-2017 05:57:54 UTC] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/tomaldy.com/httpdocs/testing/imager/resource_update.php on line 507
+[18-Apr-2017 08:20:46 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/vhosts/tomaldy.com/httpdocs/testing/imager/resource_update.php:99) in /var/www/vhosts/tomaldy.com/httpdocs/testing/imager/resource_update.php on line 109
+[18-Apr-2017 08:20:47 UTC] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/tomaldy.com/httpdocs/testing/imager/resource_update.php on line 492
+[18-Apr-2017 08:20:47 UTC] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/tomaldy.com/httpdocs/testing/imager/resource_update.php on line 492
+[18-Apr-2017 08:20:47 UTC] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/tomaldy.com/httpdocs/testing/imager/resource_update.php on line 492
+[18-Apr-2017 08:20:47 UTC] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/tomaldy.com/httpdocs/testing/imager/resource_update.php on line 507
+[18-Apr-2017 08:20:47 UTC] PHP Notice:  Trying to get property of non-object in /var/www/vhosts/tomaldy.com/httpdocs/testing/imager/resource_update.php on line 507
+[18-Apr-2017 08:20:47 UTC] PHP Warning:  Invalid argument supplied for foreach() in /var/www/vhosts/tomaldy.com/httpdocs/testing/imager/resource_update.php on line 507

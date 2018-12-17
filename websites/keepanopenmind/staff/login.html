@@ -1,0 +1,67 @@
+<html>
+<head>
+<style type="text/css">
+.username
+{
+ margin:0;
+ height:20px;
+ width:146px;
+ background:url('images/contact_bg.png') no-repeat bottom;
+}
+.usernamebox
+{
+ background:none;
+ border: 0;
+ width:134px;
+ height:17px;
+ margin:0;
+ padding: 1px 7px 0px 7px;
+ font-family:Verdana, Arial, Helvetica, sans-serif;
+ font-size:10px;
+}
+.message_box
+{
+ margin:0;
+ height:100px;
+ width:220px;
+ background:url('images/message_bg.png') no-repeat bottom;
+}
+.message
+{
+ background:none;
+ border:none;
+ width:206px;
+ height:86px;
+ margin:0;
+ padding-top: 6px;
+ padding-bottom: 8px;
+ padding-right: 7px;
+ padding-left: 7px;
+ font-family:Verdana, Arial, Helvetica, sans-serif;
+ font-size:10px;
+}
+</style>
+</head>
+<body>
+<Center>
+<div id="continue">
+<form name="f1" onSubmit="return call_login();">
+<b>Username:</b><br/>
+<div class="username">
+<input type="text" name="username" id="user" class="usernamebox" />
+</div>
+<br/>
+<b>Password:</b><br/>
+<div class="username">
+<input type="password" name="password" size="20" class="usernamebox" />
+</div>
+<br/>
+<b>Rank:</b><br/>
+<select name="userlevel" style="border: 1px solid black;font-family:Verdana;font-size: 10px;color: #000000;width: 146px;" /><option value="Management">Management</option><option value="Assistant Management">Assistant Management</option><option value="News Reporter">News Reporter</option><option value="Competition Editor">Competition Editor</option></select>
+<br/><br/>
+<a href="javascript: void(0);" onclick="call_login()"><img src="images/submit_contact.png" border="0"></a>
+</form>
+</div>
+</center>
+</body>
+</html>

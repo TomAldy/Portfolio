@@ -1,0 +1,10 @@
+[08-Aug-2016 23:16:08 UTC] PHP Notice:  Undefined index: subject in /var/www/vhosts/tomaldy.com/httpdocs/websites/keepanopenmind/kaom/send_application.php on line 2
+[08-Aug-2016 23:16:08 UTC] PHP Notice:  Undefined index: name in /var/www/vhosts/tomaldy.com/httpdocs/websites/keepanopenmind/kaom/send_application.php on line 3
+[08-Aug-2016 23:16:08 UTC] PHP Notice:  Undefined index: customer_mail in /var/www/vhosts/tomaldy.com/httpdocs/websites/keepanopenmind/kaom/send_application.php on line 4
+[08-Aug-2016 23:16:08 UTC] PHP Notice:  Undefined index: detail in /var/www/vhosts/tomaldy.com/httpdocs/websites/keepanopenmind/kaom/send_application.php on line 5
+[11-Dec-2016 04:15:37 UTC] PHP Notice:  Undefined index: username in /var/www/vhosts/tomaldy.com/httpdocs/websites/keepanopenmind/kaom/send_contact.php on line 2
+[11-Dec-2016 04:15:37 UTC] PHP Notice:  Undefined index: message in /var/www/vhosts/tomaldy.com/httpdocs/websites/keepanopenmind/kaom/send_contact.php on line 3
+[11-Dec-2016 04:15:39 UTC] PHP Notice:  Undefined index: subject in /var/www/vhosts/tomaldy.com/httpdocs/websites/keepanopenmind/kaom/send_application.php on line 2
+[11-Dec-2016 04:15:39 UTC] PHP Notice:  Undefined index: name in /var/www/vhosts/tomaldy.com/httpdocs/websites/keepanopenmind/kaom/send_application.php on line 3
+[11-Dec-2016 04:15:39 UTC] PHP Notice:  Undefined index: customer_mail in /var/www/vhosts/tomaldy.com/httpdocs/websites/keepanopenmind/kaom/send_application.php on line 4
+[11-Dec-2016 04:15:39 UTC] PHP Notice:  Undefined index: detail in /var/www/vhosts/tomaldy.com/httpdocs/websites/keepanopenmind/kaom/send_application.php on line 5

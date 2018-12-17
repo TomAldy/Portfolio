@@ -1,0 +1,693 @@
+html {
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+body {
+  padding: 0px;
+  padding-top: 50px;
+  background: url("banner.svg") center 20% no-repeat;
+  background-size: 100%;
+  background-attachment: fixed;
+  font-family: sans-serif;
+  margin: 0px;
+}
+.layout
+{
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+}
+.logo-custom
+{
+	margin-left: 15px;
+	margin-top: 5px;
+	width: 30%;
+	float: left;
+	font-size: 20px;
+}
+.logo-link
+{
+	height: 26px;
+	margin-right: 10px;
+	margin-top: 5px;
+	float: left;
+}
+.website-title
+{
+	color: #9d9d9d;
+	margin-top: 7px;
+}
+.navigation
+{
+	background-color: #222222;
+	border-bottom: 1px solid black;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 50px;
+	z-index: 60;
+	padding-top: 6px;
+}
+.menu-collapse {
+	display: none;
+	float: right;
+    font-size: 2.5em;
+    color: #9d9d9d;
+    padding-right: 15px;
+}
+.menu-container
+{
+	float: right;
+	margin-right: 1%;
+	margin-top: -21px;
+}
+.navigation li
+{
+	list-style: none;
+	height: 22px;
+	text-decoration: none;
+	color: #ffffff;
+	float: left;
+	padding-left: 18px;
+	padding: 20px;
+}
+.active
+{
+	background: #000000;
+}
+.navigation a:active
+{
+	text-decoration: none;
+	color: #9d9d9d;
+}
+.navigation a:hover
+{
+	text-decoration: none;
+	color: #ffffff;
+}
+.navigation a:link
+{
+	text-decoration: none;
+	color: #9d9d9d;
+}
+.navigation a:visited
+{
+	text-decoration: none;
+	color: #9d9d9d;
+}
+.nav-border
+{
+	border-bottom: 2px solid #222222;
+	height: 5px;
+    background-color: #ffffff;
+    position: fixed;
+    z-index: 70;
+    width: 100%;
+    top: 57px;
+    text-align: center;
+}
+.featured-devices
+{
+	border-top: 1px solid #bdc3c7;
+    border-bottom: 1px solid #222222;
+    background-color: #95a5a6;
+    width: 100%;
+    position: relative;
+}
+.device
+{
+	border: 1px solid #222222;
+    border-radius: 5px;
+    width: 17.8%;
+    margin-left: 1%;
+    margin-right: 1%;
+    background-color: #222222;
+    color: #ffffff;
+    z-index: 1;
+    text-align: center;
+    margin-top: 10px;
+    display: inline-block;
+}
+@-moz-document url-prefix() {
+	.device
+	{
+    	width: 17.6%;
+	}
+}
+_:-ms-fullscreen, :root .device { 
+    	width: 17.6%;
+}
+.device-title
+{
+	width: 100%;
+}
+.device-content
+{
+	font-size: 12px;
+	text-align: left;
+	padding-left: 5px;
+}
+.device-container
+{
+	display: table;
+    width: 100%;
+    margin-top: -36px;
+    text-align: center;
+    z-index: 36;
+    position: relative;
+}
+.banner
+{
+	width: 100%;
+	background-color: rgba(0,0,0,0.8);
+	color: #ffffff;
+	text-align: center;
+	overflow: hidden;
+}
+.custom-menu
+{
+	float: right;
+}
+.location
+{
+	width: 28%;
+    height: 300px;
+    float: left;
+    background-image: url("map.png");
+    background-position: center -113px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-left: 40px;
+}
+.title
+{
+	float: left;
+	font-size: 2em;
+	width: 30%;
+    margin-left: 18%;
+	margin-top: 50px;
+	text-align: left;
+}
+.small-text
+{
+	font-size: 60%;
+}
+.heading
+{
+	color: #000000;
+	text-align: center;
+	width: 100%;
+	margin-bottom: 20px;
+	font-size: 2em;
+}
+.about
+{
+	padding-top: 64px;
+    height: auto;
+    background-color: #ffffff;
+    z-index: 4;
+    text-align: center;
+    padding-bottom: 36px;
+    border-bottom: 4px solid #666666;
+    border-top: 2px solid #222222;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: -63px;
+    margin-top: -31px;
+}
+.summarise
+{
+	margin-top: 20px !important;
+}
+.partial-container
+{
+	width: 78%;
+    height: auto;
+    overflow: hidden;
+    margin-left: 12%;
+}
+.partial
+{
+	width: 30%;
+	margin-left: 1.5%;
+    margin-right: 1.5%;
+	float:left;
+}
+.transparent-content
+{
+	background-color: rgba(0,0,0,0.8);
+    padding-top: 87px;
+    padding-bottom: 30px;
+    width: 100%;
+    overflow: hidden;
+}
+.nav-icon
+{
+	padding: 2px;
+}
+.visit
+{
+	color: #ffffff;
+	width: 40%;
+	margin-left: 20%;
+	float: left;
+}
+.address
+{
+	margin-top: 30px;
+	float: left;
+	width: 50%;
+}
+.map
+{
+	color: #ffffff;
+    width: 22%;
+    float: left;
+    position: relative;
+    border: 5px solid white;
+    height: 200px;
+    background-image: url("map_nojs.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.map_frame
+{
+	border: 6px solid white;
+	width: 110%;
+	height: 175px;
+	margin-left: -20px;
+	margin-top: 20px;
+}
+.map_nojs
+{
+	position: absolute;
+    top: 20px;
+    left: -19px;
+}
+.donation_container
+{
+	width: 58%;
+	margin: auto;
+}
+.donations
+{
+	background-color: #ffffff;
+	border-top: 4px solid #666666;
+	border-bottom: 4px solid #666666;
+	color: #000000;
+	padding-top: 20px;
+	padding-bottom: 40px;
+	width: 100%;
+	overflow: hidden;
+	text-align: center;
+}
+.summary
+{
+	margin-top: 20px;
+}
+label
+{
+	text-align: left;
+	float: left;
+	width: 100%;
+	margin-left: 6px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.form-half
+{
+	width: 49%;
+	float: left;
+	margin-top: 20px;
+}
+.form-element
+{
+	padding: 10px;
+	border-top: 1px solid #cccccc;
+	border-right: 1px solid #cccccc;
+	border-left: 1px solid #cccccc;
+	border-bottom: 4px solid #cccccc;
+	font-family: sans-serif;
+	font-size: 14px;
+	width: 96%;
+	height: 15px;
+	background-color: #ffffff;
+	border-radius: 5px;
+}
+select
+{
+	height: 40px !important;
+}
+.footer
+{
+	background-color: #95a5a6;
+	color: #ffffff;
+	width: 100%;
+	overflow: hidden;
+}
+.copyright
+{
+	float: left;
+	padding: 10px;
+}
+.develop
+{
+	float: right;
+	padding: 10px;
+}
+input[type=checkbox] {
+   position: absolute;
+   top: -9999px;
+   left: -9999px;
+}
+.modal-link {
+  display: inline-block;
+  cursor: pointer;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  text-align: center;
+}
+.modal {
+   	width: 100%;
+    background-color: rgba(0,0,0,0.7);
+    max-height: 999em;
+    color: #ffffff;
+    opacity: 1;
+    height: 100vh;
+    overflow: hidden;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 40;
+    display: none;
+    text-align: center;
+    padding-top: 10%;
+}
+#deviceset-0:checked ~ #amazon-devices {
+   display: block;
+}
+#deviceset-1:checked ~ #apple-devices {
+   display: block;
+}
+#deviceset-2:checked ~ #asus-devices {
+   display: block;
+}
+#deviceset-3:checked ~ #blackberry-devices {
+   display: block;
+}
+#deviceset-4:checked ~ #google-devices {
+   display: block;
+}
+#deviceset-5:checked ~ #htc-devices {
+   display: block;
+}
+#deviceset-6:checked ~ #lenovo-devices {
+   display: block;
+}
+#deviceset-7:checked ~ #nokia-devices {
+   display: block;
+}
+#deviceset-8:checked ~ #samsung-devices {
+   display: block;
+}
+
+.modal-box
+{
+	width: 30%;
+	height: auto;
+	background-color: #ffffff;
+	border-top: 5px solid #95a5a6;
+	border-bottom: 5px solid #95a5a6;
+	padding: 10px;
+	margin: auto;
+	display: table;
+	color: #000000;
+	text-align: left;
+}
+.modal-header
+{
+	width: 100%;
+	border-bottom: 2px solid #95a5a6;
+	padding-bottom: 5px;
+	font-size: 1em;
+	text-align: left;
+	display: table;
+	font-size: 1.5em;
+}
+.modal-close
+{
+	float: right;
+	padding-right: 5px;
+}
+.modal-title
+{
+	padding-left: 8px;
+}
+.modal-icon
+{
+	padding-right: 2px;
+}
+.modal-body
+{
+	padding: 10px;
+}
+th
+{
+	padding: 10px;
+	border-bottom: 1px solid #CCCCCC;
+}
+td
+{
+    border-bottom: 1px solid #cccccc;
+    padding: 10px;
+    font-size: 0.8em;
+}
+table
+{
+	width: 100%;
+	border-spacing: 0px;
+    padding-bottom: 10px;
+}
+
+
+ @media only screen and (max-width : 1280px) {
+	.location {
+	    width: 40%;
+	    height: 300px;
+	    float: left;
+	    background-image: url("map.png");
+	    background-position: center -113px;
+	    background-size: 100%;
+	    background-repeat: no-repeat;
+	    margin-left: 40px;
+	}
+
+}
+
+ @media only screen and (max-width : 1060px) {
+	.location {
+	    width: 40%;
+	    height: 300px;
+	    float: left;
+	    background-image: url("map.png");
+	    background-position: center center;
+	    background-size: 100%;
+	    background-repeat: no-repeat;
+	    margin-left: 40px;
+	}
+
+}
+
+ @media only screen and (max-width : 1005px) {
+	.location {
+	    width: 40%;
+	    height: 300px;
+	    float: left;
+	    background-image: url("map.png");
+	    background-position: center center;
+	    background-size: 100%;
+	    background-repeat: no-repeat;
+	    margin-left: 40px;
+	}
+	.device {
+		border: 1px solid #222222;
+	    border-radius: 5px;
+	    width: 16.8%;
+	    margin-left: 1%;
+	    margin-right: 1%;
+	    background-color: #222222;
+	    color: #ffffff;
+	    z-index: 1;
+	    text-align: center;
+	    margin-top: 10px;
+	    display: inline-block;
+	}
+
+}
+
+ @media only screen and (max-width : 887px) {
+	.heading {
+	    font-size: 1.6em;
+	}
+	.summarise
+	{
+		font-size: 0.8em;
+	}
+}
+
+@media only screen and (max-width : 1300px) {
+	body {
+		background: url("banner.svg") no-repeat center center fixed;
+	}
+}
+
+ @media only screen and (max-width : 841px) {
+	.title {
+	    font-size: 1.6em;
+	}
+	.modal-box {
+		width: 50%;
+	}
+}
+
+ @media only screen and (max-width : 790px) {
+	.title {
+	    font-size: 1.6em;
+	}
+}
+
+ @media only screen and (max-width : 750px) {
+	.featured-devices {
+	    margin-top: -35px;
+	}
+}
+
+ @media only screen and (max-width : 676px) {
+ 	.title {
+ 		font-size: 1.4em;
+ 	}
+	.heading {
+	    font-size: 1.4em;
+	}
+	.summarise {
+		font-size: 0.6em;
+	}
+}
+
+@media only screen and (max-width : 620px) {
+	.banner {
+		padding-bottom: 70px;
+	}
+	.title {
+ 		width: 92%;
+    	text-align: center;
+    	margin: 0 auto;
+    	font-size: 1.6em;
+    	display: block;
+    	margin-top: 40px;
+    	padding-left: 4%;
+    	padding-right: 4%;
+ 	}
+	.heading {
+	    font-size: 1.2em;
+	}
+	.summarise {
+		font-size: 0.6em;
+	}
+	.location {
+		    height: 250px;
+		    display: none;
+	}
+	.device {
+		width: 45%;
+	}
+	.partial {
+		width: 100%;
+		margin-top: 6%;
+		font-size: 2em;
+	}
+	.address {
+		font-size: ;
+		width: 100%;
+		font-size: 1.3em;
+	}
+	.transparent-content {
+		text-align: center;
+	}
+	.map {
+		width: 65%;
+		margin: 0 auto;
+		float: none;
+		overflow: hidden;
+		margin-top: 20px;
+	}
+	.visit {
+		width: 100%;
+		margin-left: 0;
+	}
+	.donation_container {
+		width: 80%;
+	}
+	.summary {
+		text-align: left;
+	}
+	.form_element {
+		width: 100%;
+    	height: 35px;
+	}
+	.logo-custom {
+		width: 5%;
+	}
+	.website-title
+	{
+		display: none;
+	}
+	.form-half {
+		width: 96%;
+		margin-left: 0 !important;
+	}
+	.form-element {
+		width: 100%;
+	}
+	input[type="text"] {
+		padding-right: 0;
+		padding-left: 0;
+	}
+	textarea {
+		width: 90% !important;
+    	float: left;
+	}
+	.footer {
+		font-size: 0.9em;
+	}
+}
+
+@media only screen and (max-width : 400px) {
+	.navigation li {
+		padding: 7px;
+    	margin-top: 10px;
+	}
+	.device {
+		width: 90%;
+	}
+	.footer {
+		font-size: 0.8em;
+	}
+	.modal-box {
+    	width: 90%;
+	}
+	#hidden-menu:checked ~ #menu-hidden {
+   		display: block;
+	}
+}
+
+
+
+@media only screen and (max-width : 1200px) {
+	.modal {
+		padding-top: 30%;
+	}
+}

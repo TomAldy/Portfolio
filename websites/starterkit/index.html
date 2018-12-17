@@ -1,0 +1,1285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <link href="https://file.myfontastic.com/n6vo44Re5QaWo8oCKShBs7/icons.css" rel="stylesheet">
+    <link rel="stylesheet" type"text/css" href="css/main.css">
+    <script src="js/iframe.js"></script>
+    <title>Starter Kit &raquo; A Handy Pattern Library to Kick Start Any Website</title>
+
+</head>
+
+<body>
+    <header>
+        <nav class="nav-documentation">
+            <img src="img/logo.png" alt="Logo" class="logo">
+            <ul class="nav-documentation__container">
+                <li class="nav-documentation__item"><a href="src/starter-kit.zip">Download</a></li>
+                <li class="nav-documentation__item"><a href="#about">About</a></li>
+                <li class="nav-documentation__item"><a href="#introduction">Introduction</a></li>
+                <li class="nav-documentation__item"><a href="#layout-classes">Layout Classes</a></li>
+                <li class="nav-documentation__item"><a href="#components">Components</a></li>
+                <li class="nav-documentation__item"><a href="#support">Support</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="banner">
+        <div class="banner__video">
+            <div class="banner__overlay">
+                <div class="banner__content">
+                    <div class="banner__title">Starter Kit</div>
+                    <div class="banner__subtitle">Never start from scatch again...</div>
+                </div>
+            </div>
+            <video autoplay loop class="banner__video-player">
+                <source src="vid/banner/abcd.mp4" type="video/mp4"/>
+                <source src="vid/banner/abcd.ogg" type="video/ogg"/>
+                <source src="vid/banner/abcd.webm" type="video/webm"/>
+                Your browser does not support the video tag. I suggest you upgrade your browser.
+            </video>
+        </div>
+    </div>
+    <div class="diagram">
+        <div class="inner">
+            <div class="diagram__start">
+                <div class="diagram__logo">
+                    <div class="diagram__language">
+                        <img src="img/css3.png" class="diagram__image">
+                    </div>
+                    <div class="diagram__vertical-line"></div>
+                </div>
+                <div class="diagram__logo">
+                    <div class="diagram__language">
+                        <img src="img/html5.png" class="diagram__image">
+                    </div>
+                    <div class="diagram__vertical-line"></div>
+                </div>
+                <div class="diagram__logo">
+                    <div class="diagram__language">
+                        <img src="img/javascript.png" class="diagram__image">
+                    </div>
+                    <div class="diagram__vertical-line"></div>
+                </div>
+                <div class="diagram__final">
+                    <div class="diagram__horizontal-line"></div>
+                        <div class="diagram__skit">
+                            <a href="src/starter-kit.zip"><img src="img/logo.png"></a>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="about" id="about">
+        <div class="inner">
+            <div class="about__title">What is Starter Kit?</div>
+            <div class="about__subtitle">The Low Down...</div>
+            <div class="about__content">
+                Starter Kit is a pattern library designed to make your life simpler by setting you up with the basic stylings and scripts we think you need to get your website running in a single day, why setup your own styles and scripts when you can have a handy toolbox full of them to begin with? Fully cutomisable and supported by all browsers, there's a range of components and styles available for all of your needs.
+            </div>
+            <div class="about__subtitle">What does Starter Kit include?</div>
+            <div class="about__content">
+                Starter Kit comes stacked with 8 components, ranging from Navigation Bars to Buttons to Fixed Warning Messages, along with preset styles for columns, borders, content alignment, fonts and much more; to fully understand the gratitude of materials available in the kit, check the documentation below.
+            </div>
+            <div class="about__subtitle">What fonts and images does Starter Kit come with?</div>
+            <div class="about__content">
+                There are two font-types that are included within the Starter Kit libary, these are 'Font Awesome'; a brilliantly designed open-source icon font for all your basic graphical needs and 'Socicon'; another font full of icons that are catered towards popular social networks in font format. The included images are held all in a folder labelled 'Entypo'; another icon set which is available in <span class="code">.svg</span> format for both standard &amp; retina capabilities.
+            </div>
+            <div class="about__subtitle">What is a Component?</div>
+            <div class="about__content">
+                Components are styled 'boxes' or tools that you can implement on your website, such as a teaser, a banner with the option to enable a carousel or a navigation bar, these are standard areas of a web page which are mostly, if not always, included and we felt it was time for a different set of styles to enter the battle field!
+            </div>
+        </div>
+    </div>
+    <div class="documentation">
+        <div class="inner">
+            <div class="documentation__heading" id="introduction">Documentation</div>
+            <div class="documentation__instructions">
+                <div class="documentation__subheading">Introduction</div>
+                <div class="documentation__title">Get Started</div>
+                <div class="documentation__paper">
+                    <div class="documentation__content">
+                        Installing Starter Kit is so simple and takes minimal effort, simply download the zip file by clicking on the folder labelled <strong>SK<i>it</i></strong> above, or click <a href="src/starter-kit.zip"><u>here</u></a>. Once download has completed, simply extract the compressed folder to a destination of your choice and begin creating your website in the root directory.
+
+                        <p>Both dependency files are also available in a minified version to save load-time on your website, to use the minified versions instead, just add <span class="code">.min</span> before the file extension. 
+
+                        <h2>Locally Hosted Files (Recommended)</h2>
+                        <p>To begin, enter the code below in the <span class="code">&#10094;head&#10095;</span> section of your website...</p>
+                        <xmp><link href="css/starter-kit.css" type="text/css" rel="stylesheet">
+<script src="js/starter-kit.js"></script></xmp>
+                        <h2>Publicly Hosted Files</h2>
+                        <p>Alternatively, you can use the files straight from our repository by using the following code in your <span class="code">&#10094;head&#10095;</span> section of your website...</p>
+                        <xmp><link href="http://files.tomaldy.com/starter-kit/css/starter-kit.css" type="text/css" rel="stylesheet">
+<script src="http://files.tomaldy.com/starter-kit/js/starter-kit.js"></script></xmp>
+                        <p>Each component within the kit holds it's own example page so you can fully understand how the code works if you're not a fan of documentation, simply find the file name of the component you want to view and open it in your browser or programming software and start disecting.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="documentation__instructions">
+                <div class="documentation__title">Conventions</div>
+                <div class="documentation__paper">
+                    <div class="documentation__content">
+                        Before beginning, we'd like to describe the way that the styles have been named, along with modifications and nesting that have been integrated to be followed at a much more understandable level.
+       
+                        <h2>BEM (Block, Element, Modifier) Conventions</h2>
+                        <p>The library follows the naming convention known as BEM (Block, Element, Modifier), developed by Yandex to make following styles much easier and categorising classes/styles by a block, followed by each element inside the block, followed by any modifiers that can be added.</p>
+                        <p>Take a look at an example of the BEM convention in CSS...</p>
+                        <xmp>.banner {
+    position: relative;
+    padding: 0;
+    margin: 0;
+                
+    overflow: hidden;
+
+    list-style-type: none;
+}
+
+.banner__subtitle {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 40px;
+    padding: 10px;
+
+    background-color: rgba(0, 0, 0, 0.5);
+
+    color: #FFF;
+}
+
+.banner--small {
+    height: 120px;
+}
+
+.banner--medium {
+    height: 240px;
+}
+
+.banner--large {
+    height: 360px;
+}</xmp>
+
+                        <p>As you can see, in this case <span class="code">.banner</span> is the block, <span class="code">.banner__subtitle</span> is the element and <span class="code">.banner--small</span>,<span class="code">.banner--medium</span> and <span class="code">.banner--large</span> are the modifiers which can be applied to change the height of the <span class="code">.banner</span> block.</p>
+                        <p>Using this technique of convention ensures that the styles are easy to follow when making changes to the components and should get to the stage where applying such styles becomes second nature, to read more on BEM, click <a href="https://css-tricks.com/bem-101/" target="_blank"><u>here</u></a>.</p>
+                        <p>Components are the basis of what build a website, by having a preset amount of components, you have the ability as a developer to focus on the more speific features of your website, rather than constantly worrying about design - you can also edit these styles by creating a custom <span class="code">.css</span> file containing all of your overlaying styles to overwrite those that the pattern library already specifies.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="documentation__instructions">
+                <div class="documentation__title">Fonts</div>
+                <div class="documentation__paper">
+                    <div class="documentation__content">
+                        <p>There are two font sets included within Starter Kit, there is the '<strong>Font Awesome</strong>' icon font, and the '<strong>Socicon</strong>' icon font. These are included in order to allow for you to use open source icon's for commercial and personal use. To use these fonts simply pass over the style <span class="code">font-family: 'FontAwesome';</span> for Font Awesome, or <span class="code">font-family: 'socicon';</span> for Socicon. To understand how to use this fully, please visit their respected websites.</p>
+       
+                        <h3>Syntax</h3>
+                        <p>The syntax that has been used in order to describe the fonts, is shown below and is situated in the <span class="code">starter-kit.css</span> or <span class="code">starter-kit.min.css</span> file.</p>
+                        <xmp>@font-face {
+  font-family: "socicon";
+  src:url("../fonts/socicon.eot");
+  src:url("../fonts/socicon.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/socicon.woff") format("woff"),
+    url("../fonts/socicon.ttf") format("truetype"),
+    url("../fonts/socicon.svg#socicon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('../fonts/fontawesome-webfont.eot?v=4.5.0');
+  src: url('../fonts/fontawesome-webfont.eot?#iefix&v=4.5.0') format('embedded-opentype'), url('../fonts/fontawesome-webfont.woff2?v=4.5.0') format('woff2'), url('../fonts/fontawesome-webfont.woff?v=4.5.0') format('woff'), url('../fonts/fontawesome-webfont.ttf?v=4.5.0') format('truetype'), url('../fonts/fontawesome-webfont.svg?v=4.5.0#fontawesomeregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}</xmp>
+
+                        <p>As described above, to fully integrate these fonts into your desired CSS, just call upon the font using the <span class="code">font-family: 'FontAwesome';</span> or <span class="code">font-family: 'socicon';</span> specifications.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="documentation__instructions" id="layout-classes">
+                <div class="documentation__subheading">Layout Classes</div>
+                <div class="documentation__title">Columns</div>
+                <div class="documentation__paper">
+                    <div class="documentation__content">
+                        <p>Columns are specified through percentages within this library, meaning you can lay content out on one line providing that all elements on that line equal up to 100, to achieve this, you can use the class known as <span class="code">.column--</span> class with the number leading the <span class="code">--</span>, see a full column pyramid below.</p>
+                        <iframe src="starter-kit/columns.html" scrolling="no" onload="resizeIframe(this);" class="documentation__frame"></iframe>
+                        <p>For complete reference on what numbers are available to specify the column size, check out the <span class="code">starter-kit.css</span> file, it has every single class available in the column section.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="documentation__instructions">
+                <div class="documentation__title">Text</div>
+                <div class="documentation__paper">
+                    <div class="documentation__content">
+                        <p>Text markup is fairly straight-forward and can be achieved through the use of classes added to the text container, this can be a <span class="code">&#10094;p&#10095;</span>, <span class="code">&#10094;div&#10095;</span>, or anything for that matter.</p>
+                        <table cellspacing="0" class="text-markup">
+                            <thead>
+                                <tr>
+                                    <td>Class</td>
+                                    <td>Effect</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>bold</td>
+                                    <td style="font-weight: bold;">Bold</td>
+                                </tr>
+                                <tr>
+                                    <td>italic</td>
+                                    <td style="font-style: italic;">Italic</td>
+                                </tr>
+                                <tr>
+                                    <td>underline</td>
+                                    <td style="text-decoration: underline;">Underline</td>
+                                </tr>
+                                <tr>
+                                    <td>text-left</td>
+                                    <td>Left</td>
+                                </tr>
+                                <tr>
+                                    <td>text-center</td>
+                                    <td style="text-align: center;">Center</td>
+                                </tr>
+                                <tr>
+                                    <td>text-right</td>
+                                    <td style="text-align: right;">Right</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="documentation__instructions">
+                <div class="documentation__title">Miscellaneous</div>
+                <div class="documentation__paper">
+                    <div class="documentation__content">
+                        <p>This table goes into full depth at explaining the basic settings that can be applied to any element using these classes, these effects are for cosmetic purposes over anything else, whether that be positioning, rounding or add a border to an element.</p>
+                        <table cellspacing="0" class="text-markup">
+                            <thead>
+                                <tr>
+                                    <td>Class</td>
+                                    <td>Effect</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>send-left</td>
+                                    <td>Positions an element to the <b>left</b> side of it's container.</td>
+                                </tr>
+                                <tr>
+                                    <td>send-right</td>
+                                    <td>Positions an element to the <b>right</b> side of it's container.</td>
+                                </tr>
+                                <tr>
+                                    <td>pull-up</td>
+                                    <td>Pulls the element <b>up</b> by <b>1em</b> of where it is originally placed in the DOM.</td>
+                                </tr>
+                                <tr>
+                                    <td>pull-down</td>
+                                    <td>Pulls the element <b>down</b> by <b>1em</b> of where it is originally placed in the DOM.</td>
+                                </tr>
+                                <tr>
+                                    <td>padding</td>
+                                    <td>Applies padding of 1em to the element the class is added to.</td>
+                                </tr>
+                                <tr>
+                                    <td>gutter</td>
+                                    <td>Applies a margin of 1em to the right and left side of the element, creating outside space.</td>
+                                </tr>
+                                <tr>
+                                    <td>border</td>
+                                    <td>Adds a solid, grey border of 1 pixel to the element it is applied to.</td>
+                                </tr>
+                                <tr>
+                                    <td>circle</td>
+                                    <td>Applies a radius of 100% to the border around the element, creating a circlular effect.</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="documentation__instructions" id="components">
+                <div class="documentation__subheading">Components</div>
+                <div class="documentation__title">Buttons</div>
+                <div class="documentation__paper">
+                    <div class="documentation__content">
+                        <p>Although the button is a fairly basic component of a website, there is a multitude of modifications that can be applied to allow it to evolve into a much more beneficial component depending on where it is being placed.</p>
+                        <h3>Design</h3>
+                        <iframe src="starter-kit/buttons.html" scrolling="no" onload="resizeIframe(this);" class="documentation__frame"></iframe>
+                        <p>There are many options available for the button element, as you can see above, each version is described with it's class underneath.</p>
+                        <h3>Syntax</h3>
+                        <h4>Standard Button</h4>
+                        <p>A button can easily be brought to life using the following syntax accompanied with the <span class="code">.button</span> class.</p>
+                        <xmp><a href="#" class="button">Button</a></xmp>
+                        <h4>Link Button</h4>
+                        <p>A button used for standard links, keeps padding and removes background colour with a slight change to the documents text colour.</p>
+                        <xmp><a href="#" class="button link">Link</a></xmp>
+                        <h4>Dropdown Button</h4>
+                        <p>A dropdown button allows for sub-buttons to be held underneath for added options.</p>
+                        <xmp><div class="button dropdown">
+    <div class="dropdown__label">Account</div>
+    <ul class="dropdown__options">
+        <li>Friends</li>
+        <li>Edit</li>
+        <li>Logout</li>
+    </ul>
+</div></xmp>
+                        <h4>Send/Submit Button</h4>
+                        <p>Usually used for forms to send for processing.</p>
+                        <xmp><a href="#" class="button send">Send</a></xmp>
+                        <h4>Edit Button</h4>
+                        <p>Can be used to signify changes can be made to a form at a later date.</p>
+                        <xmp><a href="#" class="button edit">Edit</a></xmp>
+                        <h4>Delete Button</h4>
+                        <p>Used to specify that something can be deleted.</p>
+                        <xmp><a href="#" class="button delete">Delete</a></xmp>
+                        <h4>Switch Button</h4>
+                        <p>A styled checkbox as a button to appear as if one is turning a switch on or off.</p>
+                        <xmp><div class="button switch">
+    <input id="switch__checkbox" class="switch__checkbox switch__checkbox--round" type="checkbox">
+    <label for="switch__checkbox" class="switch__control"></label>
+</div></xmp>
+                        <p>To make any alternative changes to the button, simply add the class specified above in the design section which accompanies the syntax.</p>
+                        <h3>Modifiers</h3>
+                        <p>There are a number of modifiers for the <span class="code">.button</span> class and they can easily be understand through the usage of the table below, just simply add them to the class following the <span class="code">.button</span> class...</p>
+                        <table cellspacing="0" class="text-markup">
+                            <thead>
+                                <tr>
+                                    <td>Class</td>
+                                    <td>Effect</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>link</td>
+                                    <td>Remove all usual markup, except padding and displays the button as plain, underlined text.</td>
+                                </tr>
+                                <tr>
+                                    <td>dropdown</td>
+                                    <td>Requires a larger tree in terms of the DOM to accomplish the design, but the dropdown class turns the button into a dropdown to contain sub-buttons.</td>
+                                </tr>
+                                <tr>
+                                    <td>send</td>
+                                    <td>Applies button styles to appear like a send or submit button belonging to a form.</td>
+                                </tr>
+                                <tr>
+                                    <td>edit</td>
+                                    <td>A button with an added pencil icon with a blue finish to demonstrate the ability to edit something.</td>
+                                </tr>
+                                <tr>
+                                    <td>delete</td>
+                                    <td>A red coloured button used to demonstrate the ability to delete something, accompanied with a multiplication or close icon in the corner.</td>
+                                </tr>
+                                <tr>
+                                    <td>switch</td>
+                                    <td>Further mark up is needed, although the switch button creates a checkbox that becomes hidden and allows users to simulate an on/off switch.</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+            </div>
+        </div>
+            <div class="documentation__instructions">
+                <div class="documentation__title">Navigation Bar</div>
+                <div class="documentation__paper">
+                    <div class="documentation__content">
+                        <p>The Navigation Bar is the first component we will discuss in the component order, the navigation bar has a number of sub-components that help build up the final masterpiece, first we will show you how the navigation bar should look upon completion.</p>
+                        <h3>Design</h3>
+                        <iframe src="starter-kit/navigation.html" scrolling="no" onload="resizeIframe(this);" class="documentation__frame"></iframe>
+                        <p>There are a multitude of options available for the navigation, with a number of options available to add to the navigation bar to change the design of the navigation bar if preferred.</p>
+                        <h3>Syntax</h3>
+                        <p>The navigation bar can be brought to life through the following code being added into the <span class="code">&#10094;header&#10095;</span> section of your website, this will implement the demonstration navigation bar displayed in the example above.</p>
+                        <xmp><nav class="nav nav--horizontal padding">
+<img src="http://fpoimg.com/60x60?text=Logo" alt="logo" class="logo">
+    <ul class="nav__items-container">
+        <li class="nav__item">home</li>
+        <li class="nav__item">about</li>
+        <li class="nav__item dropdown">
+            <div class="dropdown__label">Services</div>
+            <div class="dropdown__collection">
+                <div class="dropdown__option">Graphics</div>
+                <div class="dropdown__option">Web</div>
+                <div class="dropdown__option">Database</div>
+            </div>
+        </li>
+        <li class="nav__item">support</li>
+    </ul>
+</nav></xmp>
+                        <p>By default, the navigation item's, specified with the class <span class="code">.nav__item</span>, is set to be capitalised automatically, this, along with all of the other styles, can be over-written with your own custom styles if preferred. The navigation container to hold the navigational items can also be called using the <span class="code">.nav__container</span> class.</p>
+                        <p>Creating a specific dropdown navigation item can be achieved through the <span class="code">.dropdown</span> class, followed by the necessary children laid out in the example above.</p>
+                        <h3>Modifiers</h3>
+                        <p>The only available modifier specific to the navigation bar is <span class="code">.nav--vertical</span> in place of <span class="code">.nav--horizontal</span> to change the orientation of the bar to be placed on the left-hand side of the page. Although the usual modifiers can be applied, such as <span class="code">.padding</span>,<span class="code">.text-center</span>, etc.</p>
+                    </div>
+            </div>
+        </div>
+        <div class="documentation__instructions">
+                <div class="documentation__title">Banner</div>
+                <div class="documentation__paper">
+                    <div class="documentation__content">
+                        <p>The banner has been created with the intentions of being able to hold multiple banners at once with a fade effect looping through each one, the banner has been progressively enhanced to cater for users who may have JavaScript disabled, the banner takes care of this for you. Initiate the banner with the <span class="code">.banner</span> class.</p>
+                        <h3>Design</h3>
+                        <iframe src="starter-kit/banner.html" scrolling="no" onload="resizeIframe(this);" class="documentation__frame"></iframe>
+                        <p>The banner is a very simply built component, to achieve the carousel effect, the<span class="code">.carousel</span> class must be added to the banner container.</p>
+                        <h3>Syntax</h3>
+                        <p>To bring the banner to life, simply take a look at the example code that can bring the above example of the banner to life...</p>
+                        <xmp><ul class="banner carousel">
+    <li class="banner__item">
+        <img src="http://fpoimg.com/2000x400?text=First" alt="banner" class="banner__image">
+        <div class="banner__subtitle">
+            This is where your leading title would go to summarise the banner above.
+        </div>
+    </li>
+    <li class="banner__item">
+        <img src="http://fpoimg.com/2000x400?text=Second" alt="banner" class="banner__image">
+        <div class="banner__subtitle">
+            Another one.
+        </div>
+    </li>
+    <li class="banner__item">
+        <img src="http://fpoimg.com/2000x400?text=Third" alt="banner" class="banner__image">
+        <div class="banner__subtitle">
+            And Another One
+        </div>
+    </li>
+</ul></xmp>
+                        <p>The banner can be loaded with or without the usage of the <span class="code">.subtitle</span> div, this is simply an option, on top of the <span class="code">.carousel</span> class to add the fading, multiple effect. If the banner does not have the <span cass="code">.carousel</span> class, then it will simply display the first banner in the order, the same effect is applied for lack of JavaScript.</p>
+                        <h3>Modifiers</h3>
+                        <p>The modifier available can be applied to the highest level banner container, this is the <span class="code">.carousel</span> class. As stated in the example above, multiple banners are a simple thing to add. The only other option is to remove the <span class="code">banner__subtitle</span> div, which will completely remove the banner's subtitle message if one is not needed.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="documentation__instructions">
+                <div class="documentation__title">Jumbotron</div>
+                <div class="documentation__paper">
+                    <div class="documentation__content">
+                        <p>The Jumobotron is a very self-explanatory component and is a regular piece of any pattern library, the jumobotron is created in order to allow users to create a call-to-action element, it can be used to hold specific important content or could even be used as an alert if needed, the possibilities are endless.</p>
+                        <h3>Design</h3>
+                        <iframe src="starter-kit/jumbotron.html" scrolling="no" onload="resizeIframe(this);" class="documentation__frame"></iframe>
+                        <p>The Jumbrotron is a very straight forward component and can be edited to fit your needs by appling your own custom styles to over-write the necessary classes, or apply your own.</p>
+                        <h3>Syntax</h3>
+                        <p>The Jumbotron requires very minimal markup as opposed to most of the other larger components and complications should be rare, here's an example of the markup for the jumbotron above...</p>
+                        <xmp><div class="jumbotron">
+    <div class="jumbotron__title">Party is on tonight!</div>
+    <div class="jumbotron__content">RSVP so we know if you'll be there...</div>
+    <div class="jumbotron__options">
+        <a href="#" class="button">Read More...</a>
+    </div>
+</div></xmp>
+                        <p>The Jumobotron is initiated through the use of the <span class="code">.jumpbotron</span> class and by following the classes specified in the markup above, you have the ability to position specific aspects how you wish, using the <span class="code">.button</span> class you can also apply button modifiers to change how the button looks.</p>
+                        <h3>Modifiers</h3>
+                        <p>The Jumbotron currently holds no optional modifiers that can be applied.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="documentation__instructions">
+                <div class="documentation__title">Teaser</div>
+                <div class="documentation__paper">
+                    <div class="documentation__content">
+                        <p>The Teaser is a component much like the Jumbotron component, but is used more to display an image with content and a link, this is used relatively to display piece of content that can be used to 'tease' the audience to wanting to read more information of the information they have just read.</p>
+                        <h3>Design</h3>
+                        <iframe src="starter-kit/teaser.html" scrolling="no" onload="resizeIframe(this);" class="documentation__frame"></iframe>
+                        <p>The above example displays the teaser in a group, much rather than alone, the teaser can be called in anyway you feel fit in your project; and can usually be specified using the column options held in the library.</p>
+                        <h3>Syntax</h3>
+                        <p>Check out this example mark up of the teaser in a group, using specific classes combined together through the library to create a group rather than alone. Notice how the teaser is called upon using the <span class="code">.teaser</span> class.</p>
+                        <xmp><div class="teaser-group">
+    <div class="teaser border column--25 send-left">
+        <div class="teaser__image">
+            <img src="http://fpoimg.com/100x100?text=Partial" alt="Teaser Image">
+        </div>
+        <div class="teaser__content">
+            An example of content.
+        </div>
+        <div class="teaser__options">
+            <a href="#" class="button">Read More...</a>
+        </div>
+    </div>
+    <div class="teaser border column--25 send-left">
+        <div class="teaser__image">
+            <img src="http://fpoimg.com/100x100?text=Partial" alt="Teaser Image">
+        </div>
+        <div class="teaser__content">
+            An example of content.
+        </div>
+        <div class="teaser__options">
+            <a href="#" class="button">Read More...</a>
+        </div>
+    </div>
+    <div class="teaser border column--25 send-left">
+        <div class="teaser__image">
+            <img src="http://fpoimg.com/100x100?text=Partial" alt="Teaser Image">
+        </div>
+        <div class="teaser__content">
+            An example of content.
+        </div>
+        <div class="teaser__options">
+            <a href="#" class="button">Read More...</a>
+        </div>
+    </div>
+    <div class="teaser border column--25 send-left">
+        <div class="teaser__image">
+            <img src="http://fpoimg.com/100x100?text=Partial" alt="Teaser Image">
+        </div>
+        <div class="teaser__content">
+            An example of content.
+        </div>
+        <div class="teaser__options">
+            <a href="hi" class="button">Read More...</a>
+        </div>
+    </div>
+</div></xmp>
+                        <p>As you can see, there have been many additions to the teaser to surround it and position it correctly to display all four across one line, along with the <span class="code">.border</span> class being added in order to display the size of the teaser fully.</strong>
+                        <h3>Modifiers</h3>
+                        <p>The Teaser component currently holds no optional modifiers that can be applied.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="documentation__instructions">
+                <div class="documentation__title">Fixed Message</div>
+                <div class="documentation__paper">
+                    <div class="documentation__content">
+                        <p>The Fixed Message is a very different component compared to the rest and can be a very helpful addition to your website if you required an alert so that users are warned of specific aspects of your website.</p>
+                        <h3>Design</h3>
+                        <iframe src="starter-kit/fixed-message.html" scrolling="no" class="documentation__frame"></iframe>
+                        <p>Although not obvious in the example, the message is purely fixed to the bottom of the screen and can be created through the usage of the <span class="code">.custom-message</span> being added to the body class of your website.</p>
+                        <h3>Syntax</h3>
+                        <p>The above fixed message has been created within the <span class="code">&#10094;body&#10095;</span> element, therefore there is no CSS needed unless you feel like editing the colours or font.</p>
+                        <xmp><body class="custom-message" data-message="This is an example of a fixed message, it will remain in position when scrolling."></xmp>
+                        <p>The fixed message component can be called through the use of the <span class="code">.custom-message</span> class and the message can then be specified using the <span class="code">data-message</span> atrribute, without this attribute, the component would not work. On top of all this, a big benefit is <strong><u>NO JAVASCRIPT!</u></strong></p>
+                        <h3>Modifiers</h3>
+                        <p>The Fixed Message component currently holds no optional modifiers that can be applied.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="documentation__instructions">
+                <div class="documentation__title">Notification Effect</div>
+                <div class="documentation__paper">
+                    <div class="documentation__content">
+                        <p>Although very simple, the notification effect can do wanders if you are developing a web application or generating some personal content catered to a particular user.</p>
+                        <h3>Design</h3>
+                        <iframe src="starter-kit/notification.html" scrolling="no" onload="resizeIframe(this);" class="documentation__frame"></iframe>
+                        <p>The notification effect is a simple build of a small icon in the top right hand corner of any element it is placed on, through the usage of the same markup as the fixed message as seen previously.</p>
+                        <h3>Syntax</h3>
+                        <p>To recreate a <span class="code">.notification</span> as displayed in the example above, use the following mark-up...</p>
+                        <xmp><div class="notification" data-amount="10">
+    Notifications
+</div></xmp>
+                        <p>As you can see, the markup is very simple and can simply be brought to life using the <span class="code">.notification</span> class, accompanised by a new attribute called <span class="code">data-amount</span> which specifies the number that should be placed in the box.</p>
+                        <h3>Modifiers</h3>
+                        <p>The Notification effect currently holds no optional modifiers that can be applied.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="documentation__instructions">
+                <div class="documentation__title">Social Button</div>
+                <div class="documentation__paper">
+                    <div class="documentation__content">
+                        <p>Slightly different to the button due to modifications, the social button has options available that are not as expected as other components. By using the <span class="code">.social</span> class, there then needs to be a <span class="code">.social--*</span> class following it through straight after to specify which icon you need to add to the social button.</p>
+                        <h3>Design</h3>
+                        <iframe src="starter-kit/social.html" scrolling="no" onload="resizeIframe(this);" class="documentation__frame"></iframe>
+                        <p>This button component differs in terms of containing more than one modifier, in fact it has a large amount of modifiers which will be explained in the modifiers section below, this is all tied into the <span class="code">.social--*</span> class.</p>
+                        <h3>Syntax</h3>
+                        <p>To recreate a <span class="code">.social</span> button as displayed in the example above, use the following mark-up...</p>
+                        <xmp><a href="http://www.facebook.com" class="button social social--facebook">Facebook</a></xmp>
+                        <p>As you can see, there have been three classes specified, <span class="code">.button</span>, specifying that this element is a button, the <span class="code">.social</span> class which describes that there needs to be a social icon and finally <span class="code">.social--facebook</span>, the class that tells the browser which icon to grab from the 'Socicon' font that Starter Kit comes stocked with.</p>
+                        <h3>Modifiers</h3>
+                        <p>The available modifiers for the social button tie into the <span class="code">.social--*</span> class, if you want to change the social icon that is generated then use this table below for reference, just replace the <span class="code">*</span> in <span class="code">.social--*</span> to the social icon you would like.</p>
+                        <table cellspacing="0" class="text-markup">
+                            <thead>
+                                <tr>
+                                    <td>Class</td>
+                                    <td>Social Network</td>
+                                    <td>Icon</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>twitter</td>
+                                    <td>Twitter</td>
+                                    <td style="text-align: center;"><i class="socicon-twitter"></i></td>
+                                </tr>
+                                <tr>
+                                    <td>facebook</td>
+                                    <td>Facebook</td>
+                                    <td style="text-align: center;"><i class="socicon-facebook"></i></td>
+                                </tr>
+                                <tr>
+                                    <td>googleplus</td>
+                                    <td>Google+</td>
+                                    <td style="text-align: center;"><i class="socicon-googleplus"></i></td>
+                                </tr>
+                                <tr>
+                                    <td>pinterest</td>
+                                    <td>Pinterest</td>
+                                    <td style="text-align: center;"><i class="socicon-pinterest"></i></td>
+                                </tr>
+                                <tr>
+                                    <td>foursquare</td>
+                                    <td>Foursquare</td>
+                                    <td style="text-align: center;"><i class="socicon-foursquare"></i></td>
+                                </tr>
+                                <tr>
+                                    <td>yahoo</td>
+                                    <td>Yahoo</td>
+                                    <td style="text-align: center;"><i class="socicon-yahoo"></i></td>
+                                </tr>
+                                <tr>
+                                    <td>skype</td>
+                                    <td>Skype</td>
+                                    <td style="text-align: center;"><i class="socicon-skype"></i></td>
+                                </tr>
+                                <tr>
+                                    <td>yelp</td>
+                                    <td>Yelp</td>
+                                    <td style="text-align: center;"><i class="socicon-yelp"></i></td>
+                                </tr>
+                                <tr>
+                                    <td>feedburner</td>
+                                    <td>FeedBurner</td>
+                                    <td style="text-align: center;"><i class="socicon-feedburner"></i></td>
+                                </tr>
+                                <tr>
+                                    <td>linkedin</td>
+                                    <td>LinkedIn</td>
+                                    <td style="text-align: center;"><i class="socicon-linkedin"></i></td>
+                                </tr>
+                                <tr>
+                                    <td>viadeo</td>
+                                    <td>Viadeo</td>
+                                    <td style="text-align: center;"><i class="socicon-viadeo"></i></td>
+                                </tr>
+                                <tr>
+                                    <td>xing</td>
+                                    <td>Xing</td>
+                                    <td style="text-align: center;"><i class="socicon-xing"></i></td>
+                                </tr>
+                                <tr>
+                                    <td>myspace</td>
+                                    <td>MySpace</td>
+                                    <td style="text-align: center;"><i class="socicon-myspace"></i></td>
+                                </tr>
+                                <tr>
+                                    <td>soundcloud</td>
+                                    <td>SoundCloud</td>
+                                    <td style="text-align: center;"><i class="socicon-soundcloud"></i></td>
+                                </tr>
+                                <tr>
+                                    <td>spotify</td>
+                                    <td>Spotify</td>
+                                    <td style="text-align: center;"><i class="socicon-spotify"></i></td>
+                                </tr>
+                                <tr>
+                                    <td>grooveshark</td>
+                                    <td>Grooveshark</td>
+                                    <td style="text-align: center;"><i class="socicon-grooveshark"></i></td>
+                                </tr>
+                                <tr>
+                                    <td>mixcloud</td>
+                                    <td>MixCloud</td>
+                                    <td style="text-align: center;"><i class="socicon-mixcloud"></i></td>
+                                </tr>
+                                <tr>
+                                    <td>lastfm</td>
+                                    <td>Last.FM</td>
+                                    <td style="text-align: center;"><i class="socicon-lastfm"></i></td>
+                                </tr>
+                                <tr>
+                                    <td>youtube</td>
+                                    <td>YouTube</td>
+                                    <td style="text-align: center;"><i class="socicon-youtube"></i></td>
+                                </tr>
+                                <tr>
+                                    <td>vimeo</td>
+                                    <td>Vimeo</td>
+                                    <td style="text-align: center;"><i class="socicon-vimeo"></i></td>
+                                </tr>
+                                <tr>
+                                    <td>dailymotion</td>
+                                    <td>DailyMotion</td>
+                                    <td style="text-align: center;"><i class="socicon-dailymotion"></i></td>
+                                </tr>
+                                <tr>
+                                    <td>vine</td>
+                                    <td>Vine</td>
+                                    <td style="text-align: center;"><i class="socicon-vine"></i></td>
+                                </tr>
+                                <tr>
+                                    <td>flickr</td>
+                                    <td>Flickr</td>
+                                    <td style="text-align: center;"><i class="socicon-flickr"></i></td>
+                                </tr>
+                                <tr>
+                                    <td>500px</td>
+                                    <td>500PX</td>
+                                    <td style="text-align: center;"><i class="socicon-500px"></i></td>
+                                </tr>
+                                <tr>
+                                    <td>instagram</td>
+                                    <td>Instagram</td>
+                                    <td style="text-align: center;"><i class="socicon-instagram"></i></td>
+                                </tr>
+                                <tr>
+                                    <td>wordpress</td>
+                                    <td>Wordpress</td>
+                                    <td style="text-align: center;"><i class="socicon-wordpress"></i></td>
+                                </tr>
+                                <tr>
+                                    <td>tumblr</td>
+                                    <td>Tumblr</td>
+                                    <td style="text-align: center;"><i class="socicon-tumblr"></i></td>
+                                </tr>
+                                <tr>
+                                    <td>blogger</td>
+                                    <td>Blogger</td>
+                                    <td style="text-align: center;"><i class="socicon-blogger"></i></td>
+                                </tr>
+                                <tr>
+                                    <td>technorati</td>
+                                    <td>Technorati</td>
+                                    <td style="text-align: center;"><i class="socicon-technorati"></i></td>
+                                </tr>
+                                <tr>
+                                    <td>reddit</td>
+                                    <td>Reddit</td>
+                                    <td style="text-align: center;"><i class="socicon-reddit"></i></td>
+                                </tr>
+                                <tr>
+                                    <td>dribbble</td>
+                                    <td>Dribbble</td>
+                                    <td style="text-align: center;"><i class="socicon-dribbble"></i></td>
+                                </tr>
+                                <tr>
+                                    <td>stumbleupon</td>
+                                    <td>StumbleUpon</td>
+                                    <td style="text-align: center;"><i class="socicon-stumbleupon"></i></td>
+                                </tr>
+                                <tr>
+                                    <td>digg</td>
+                                    <td>Digg</td>
+                                    <td style="text-align: center;"><i class="socicon-digg"></i></td>
+                                </tr>
+                                <tr>
+                                    <td>envato</td>
+                                    <td>Envato</td>
+                                    <td style="text-align: center;"><i class="socicon-envato"></i></td>
+                                </tr>
+                                <tr>
+                                    <td>behance</td>
+                                    <td>Behance</td>
+                                    <td style="text-align: center;"><i class="socicon-behance"></i></td>
+                                </tr>
+                                <tr>
+                                    <td>delicious</td>
+                                    <td>Delicious</td>
+                                    <td style="text-align: center;"><i class="socicon-delicious"></i></td>
+                                </tr>
+                                <tr>
+                                    <td>deviantart</td>
+                                    <td>DeviantArt</td>
+                                    <td style="text-align: center;"><i class="socicon-deviantart"></i></td>
+                                </tr>
+                                <tr>
+                                    <td>forrst</td>
+                                    <td>Forrst</td>
+                                    <td style="text-align: center;"><i class="socicon-forrst"></i></td>
+                                </tr>
+                                <tr>
+                                    <td>play</td>
+                                    <td>Google Play</td>
+                                    <td style="text-align: center;"><i class="socicon-play"></i></td>
+                                </tr>
+                                <tr>
+                                    <td>zerply</td>
+                                    <td>Zerply</td>
+                                    <td style="text-align: center;"><i class="socicon-zerply"></i></td>
+                                </tr>
+                                <tr>
+                                    <td>wikipedia</td>
+                                    <td>Wikipedia</td>
+                                    <td style="text-align: center;"><i class="socicon-wikipedia"></i></td>
+                                </tr>
+                                <tr>
+                                    <td>apple</td>
+                                    <td>Apple</td>
+                                    <td style="text-align: center;"><i class="socicon-apple"></i></td>
+                                </tr>
+                                <tr>
+                                    <td>flattr</td>
+                                    <td>Flattr</td>
+                                    <td style="text-align: center;"><i class="socicon-flattr"></i></td>
+                                </tr>
+                                <tr>
+                                    <td>github</td>
+                                    <td>GitHub</td>
+                                    <td style="text-align: center;"><i class="socicon-github"></i></td>
+                                </tr>
+                                <tr>
+                                    <td>friendfeed</td>
+                                    <td>FriendFeed</td>
+                                    <td style="text-align: center;"><i class="socicon-friendfeed"></i></td>
+                                </tr>
+                                <tr>
+                                    <td>newsvine</td>
+                                    <td>NewsVine</td>
+                                    <td style="text-align: center;"><i class="socicon-newsvine"></i></td>
+                                </tr>
+                                <tr>
+                                    <td>identica</td>
+                                    <td>Identice</td>
+                                    <td style="text-align: center;"><i class="socicon-identica"></i></td>
+                                </tr>
+                                <tr>
+                                    <td>bebo</td>
+                                    <td>Bebo</td>
+                                    <td style="text-align: center;"><i class="socicon-bebo"></i></td>
+                                </tr>
+                                <tr>
+                                    <td>zynga</td>
+                                    <td>Zynga</td>
+                                    <td style="text-align: center;"><i class="socicon-zynga"></i></td>
+                                </tr>
+                                <tr>
+                                    <td>steam</td>
+                                    <td>Steam</td>
+                                    <td style="text-align: center;"><i class="socicon-steam"></i></td>
+                                </tr>
+                                <tr>
+                                    <td>xbox</td>
+                                    <td>Xbox</td>
+                                    <td style="text-align: center;"><i class="socicon-xbox"></i></td>
+                                </tr>
+                                <tr>
+                                    <td>windows</td>
+                                    <td>Windows</td>
+                                    <td style="text-align: center;"><i class="socicon-windows"></i></td>
+                                </tr>
+                                <tr>
+                                    <td>outlook</td>
+                                    <td>Outlook</td>
+                                    <td style="text-align: center;"><i class="socicon-outlook"></i></td>
+                                </tr>
+                                <tr>
+                                    <td>coderwall</td>
+                                    <td>CoderWall</td>
+                                    <td style="text-align: center;"><i class="socicon-coderwall"></i></td>
+                                </tr>
+                                <tr>
+                                    <td>tripadvisor</td>
+                                    <td>TripAdvisor</td>
+                                    <td style="text-align: center;"><i class="socicon-tripadvisor"></i></td>
+                                </tr>
+                                <tr>
+                                    <td>appnet</td>
+                                    <td>Appnet</td>
+                                    <td style="text-align: center;"><i class="socicon-appnet"></i></td>
+                                </tr>
+                                <tr>
+                                    <td>goodreads</td>
+                                    <td>GoodReads</td>
+                                    <td style="text-align: center;"><i class="socicon-goodreads"></i></td>
+                                </tr>
+                                <tr>
+                                    <td>tripit</td>
+                                    <td>TripIt</td>
+                                    <td style="text-align: center;"><i class="socicon-tripit"></i></td>
+                                </tr>
+                                <tr>
+                                    <td>lanyrd</td>
+                                    <td>Lanyrd</td>
+                                    <td style="text-align: center;"><i class="socicon-lanyrd"></i></td>
+                                </tr>
+                                <tr>
+                                    <td>slideshare</td>
+                                    <td>Slideshare</td>
+                                    <td style="text-align: center;"><i class="socicon-slideshare"></i></td>
+                                </tr>
+                                <tr>
+                                    <td>buffer</td>
+                                    <td>Buffer</td>
+                                    <td style="text-align: center;"><i class="socicon-buffer"></i></td>
+                                </tr>
+                                <tr>
+                                    <td>rss</td>
+                                    <td>RSS</td>
+                                    <td style="text-align: center;"><i class="socicon-rss"></i></td>
+                                </tr>
+                                <tr>
+                                    <td>vkontakte</td>
+                                    <td>Vkontakte</td>
+                                    <td style="text-align: center;"><i class="socicon-vkontakte"></i></td>
+                                </tr>
+                                <tr>
+                                    <td>disqus</td>
+                                    <td>Disqus</td>
+                                    <td style="text-align: center;"><i class="socicon-disqus"></i></td>
+                                </tr>
+                                <tr>
+                                    <td>houzz</td>
+                                    <td>Houzz</td>
+                                    <td style="text-align: center;"><i class="socicon-houzz"></i></td>
+                                </tr>
+                                <tr>
+                                    <td>mail</td>
+                                    <td>Mail</td>
+                                    <td style="text-align: center;"><i class="socicon-mail"></i></td>
+                                </tr>
+                                <tr>
+                                    <td>patreon</td>
+                                    <td>Patreon</td>
+                                    <td style="text-align: center;"><i class="socicon-patreon"></i></td>
+                                </tr>
+                                <tr>
+                                    <td>paypal</td>
+                                    <td>PayPal</td>
+                                    <td style="text-align: center;"><i class="socicon-paypal"></i></td>
+                                </tr>
+                                <tr>
+                                    <td>playstation</td>
+                                    <td>Playstation</td>
+                                    <td style="text-align: center;"><i class="socicon-playstation"></i></td>
+                                </tr>
+                                <tr>
+                                    <td>smugmug</td>
+                                    <td>SmugMug</td>
+                                    <td style="text-align: center;"><i class="socicon-smugmug"></i></td>
+                                </tr>
+                                <tr>
+                                    <td>swarm</td>
+                                    <td>Swarm</td>
+                                    <td style="text-align: center;"><i class="socicon-swarm"></i></td>
+                                </tr>
+                                <tr>
+                                    <td>triplej</td>
+                                    <td>TripleJ</td>
+                                    <td style="text-align: center;"><i class="socicon-triplej"></i></td>
+                                </tr>
+                                <tr>
+                                    <td>yammer</td>
+                                    <td>Yammer</td>
+                                    <td style="text-align: center;"><i class="socicon-yammer"></i></td>
+                                </tr>
+                                <tr>
+                                    <td>stackoverflow</td>
+                                    <td>StackOverflow</td>
+                                    <td style="text-align: center;"><i class="socicon-stackoverflow"></i></td>
+                                </tr>
+                                <tr>
+                                    <td>drupal</td>
+                                    <td>Drupal</td>
+                                    <td style="text-align: center;"><i class="socicon-drupal"></i></td>
+                                </tr>
+                                <tr>
+                                    <td>odnoklassniki</td>
+                                    <td>Odnoklassniki</td>
+                                    <td style="text-align: center;"><i class="socicon-odnoklassniki"></i></td>
+                                </tr>
+                                <tr>
+                                    <td>android</td>
+                                    <td>Android</td>
+                                    <td style="text-align: center;"><i class="socicon-android"></i></td>
+                                </tr>
+                                <tr>
+                                    <td>meetup</td>
+                                    <td>MeetUp</td>
+                                    <td style="text-align: center;"><i class="socicon-meetup"></i></td>
+                                </tr>
+                                <tr>
+                                    <td>persona</td>
+                                    <td>Mozilla Persona</td>
+                                    <td style="text-align: center;"><i class="socicon-persona"></i></td>
+                                </tr>
+                                <tr>
+                                    <td>amazon</td>
+                                    <td>Amazon</td>
+                                    <td style="text-align: center;"><i class="socicon-amazon"></i></td>
+                                </tr>
+                                <tr>
+                                    <td>ello</td>
+                                    <td>Ello</td>
+                                    <td style="text-align: center;"><i class="socicon-ello"></i></td>
+                                </tr>
+                                <tr>
+                                    <td>8tracks</td>
+                                    <td>8Tracks</td>
+                                    <td style="text-align: center;"><i class="socicon-8tracks"></i></td>
+                                </tr>
+                                <tr>
+                                    <td>twitch</td>
+                                    <td>Twitch</td>
+                                    <td style="text-align: center;"><i class="socicon-twitch"></i></td>
+                                </tr>
+                                <tr>
+                                    <td>airbnb</td>
+                                    <td>AirBnB</td>
+                                    <td style="text-align: center;"><i class="socicon-airbnb"></i></td>
+                                </tr>
+                                <tr>
+                                    <td>pocket</td>
+                                    <td>Pocket</td>
+                                    <td style="text-align: center;"><i class="socicon-pocket"></i></td>
+                                </tr>
+                                <tr>
+                                    <td>whatsapp</td>
+                                    <td>WhatsApp</td>
+                                    <td style="text-align: center;"><i class="socicon-whatsapp"></i></td>
+                                </tr>
+                                <tr>
+                                    <td>storehouse</td>
+                                    <td>Storehouse</td>
+                                    <td style="text-align: center;"><i class="socicon-storehouse"></i></td>
+                                </tr>
+                                <tr>
+                                    <td>icq</td>
+                                    <td>ICQ/td>
+                                    <td style="text-align: center;"><i class="socicon-icq"></i></td>
+                                </tr>
+                                <tr>
+                                    <td>modelmayhem</td>
+                                    <td>Model Mayhem</td>
+                                    <td style="text-align: center;"><i class="socicon-modelmayhem"></i></td>
+                                </tr>
+                                <tr>
+                                    <td>istock</td>
+                                    <td>iStock</td>
+                                    <td style="text-align: center;"><i class="socicon-istock"></i></td>
+                                </tr>
+                                <tr>
+                                    <td>angellist</td>
+                                    <td>Angellist</td>
+                                    <td style="text-align: center;"><i class="socicon-angellist"></i></td>
+                                </tr>
+                                <tr>
+                                    <td>periscope</td>
+                                    <td>Periscope</td>
+                                    <td style="text-align: center;"><i class="socicon-periscope"></i></td>
+                                </tr>
+                                <tr>
+                                    <td>ravelry</td>
+                                    <td>Ravelry</td>
+                                    <td style="text-align: center;"><i class="socicon-ravelry"></i></td>
+                                </tr>
+                                <tr>
+                                    <td>snapchat</td>
+                                    <td>Snapchat</td>
+                                    <td style="text-align: center;"><i class="socicon-snapchat"></i></td>
+                                </tr>
+                                <tr>
+                                    <td>weibo</td>
+                                    <td>Sina Weibo</td>
+                                    <td style="text-align: center;"><i class="socicon-weibo"></i></td>
+                                </tr>
+                                <tr>
+                                    <td>douban</td>
+                                    <td>Douban</td>
+                                    <td style="text-align: center;"><i class="socicon-douban"></i></td>
+                                </tr>
+                                <tr>
+                                    <td>baidu</td>
+                                    <td>Baidu</td>
+                                    <td style="text-align: center;"><i class="socicon-baidu"></i></td>
+                                </tr>
+                                <tr>
+                                    <td>qq</td>
+                                    <td>QQ</td>
+                                    <td style="text-align: center;"><i class="socicon-qq"></i></td>
+                                </tr>
+                                <tr>
+                                    <td>renren</td>
+                                    <td>RenRen</td>
+                                    <td style="text-align: center;"><i class="socicon-renren"></i></td>
+                                </tr>
+                                <tr>
+                                    <td>ebay</td>
+                                    <td>Ebay</td>
+                                    <td style="text-align: center;"><i class="socicon-ebay"></i></td>
+                                </tr>
+                                <tr>
+                                    <td>imdb</td>
+                                    <td>IMDB</td>
+                                    <td style="text-align: center;"><i class="socicon-imdb"></i></td>
+                                </tr>
+                                <tr>
+                                    <td>stayfriends</td>
+                                    <td>StayFriends</td>
+                                    <td style="text-align: center;"><i class="socicon-stayfriends"></i></td>
+                                </tr>
+                                <tr>
+                                    <td>residentadvisor</td>
+                                    <td>Resident Advisor</td>
+                                    <td style="text-align: center;"><i class="socicon-residentadvisor"></i></td>
+                                </tr>
+                                <tr>
+                                    <td>google</td>
+                                    <td>Google</td>
+                                    <td style="text-align: center;"><i class="socicon-google"></i></td>
+                                </tr>
+                                <tr>
+                                    <td>yandex</td>
+                                    <td>Yandex</td>
+                                    <td style="text-align: center;"><i class="socicon-yandex"></i></td>
+                                </tr>
+                                <tr>
+                                    <td>sharethis</td>
+                                    <td>ShareThis</td>
+                                    <td style="text-align: center;"><i class="socicon-sharethis"></i></td>
+                                </tr>
+                                <tr>
+                                    <td>bandcamp</td>
+                                    <td>BandCamp</td>
+                                    <td style="text-align: center;"><i class="socicon-bandcamp"></i></td>
+                                </tr>
+                                <tr>
+                                    <td>itunes</td>
+                                    <td>iTunes</td>
+                                    <td style="text-align: center;"><i class="socicon-itunes"></i></td>
+                                </tr>
+                                <tr>
+                                    <td>deezer</td>
+                                    <td>Deezer</td>
+                                    <td style="text-align: center;"><i class="socicon-deezer"></i></td>
+                                </tr>
+                                <tr>
+                                    <td>medium</td>
+                                    <td>Medium</td>
+                                    <td style="text-align: center;"><i class="socicon-medium"></i></td>
+                                </tr>
+                                <tr>
+                                    <td>telegram</td>
+                                    <td>Telegram</td>
+                                    <td style="text-align: center;"><i class="socicon-telegram"></i></td>
+                                </tr>
+                                <tr>
+                                    <td>openid</td>
+                                    <td>OpenID</td>
+                                    <td style="text-align: center;"><i class="socicon-openid"></i></td>
+                                </tr>
+                                <tr>
+                                    <td>amplement</td>
+                                    <td>Amplement</td>
+                                    <td style="text-align: center;"><i class="socicon-amplement"></i></td>
+                                </tr>
+                                <tr>
+                                    <td>viber</td>
+                                    <td>Viber</td>
+                                    <td style="text-align: center;"><i class="socicon-viber"></i></td>
+                                </tr>
+                                <tr>
+                                    <td>zomato</td>
+                                    <td>Zomato</td>
+                                    <td style="text-align: center;"><i class="socicon-zomato"></i></td>
+                                </tr>
+                                <tr>
+                                    <td>quora</td>
+                                    <td>Quora</td>
+                                    <td style="text-align: center;"><i class="socicon-quora"></i></td>
+                                </tr>
+                                <tr>
+                                    <td>draugiem</td>
+                                    <td>Draugiem.LV</td>
+                                    <td style="text-align: center;"><i class="socicon-draugiem"></i></td>
+                                </tr>
+                                <tr>
+                                    <td>endomondo</td>
+                                    <td>Endomondo</td>
+                                    <td style="text-align: center;"><i class="socicon-endomondo"></i></td>
+                                </tr>
+                                <tr>
+                                    <td>filmweb</td>
+                                    <td>FilmWeb</td>
+                                    <td style="text-align: center;"><i class="socicon-filmweb"></i></td>
+                                </tr>
+                                <tr>
+                                    <td>stackexchange</td>
+                                    <td>StackExchange</td>
+                                    <td style="text-align: center;"><i class="socicon-stackexchange"></i></td>
+                                </tr>
+                                <tr>
+                                    <td>wykop</td>
+                                    <td>Wykop</td>
+                                    <td style="text-align: center;"><i class="socicon-wykop"></i></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="documentation__instructions">
+                <div class="documentation__title">Footer</div>
+                <div class="documentation__paper">
+                    <div class="documentation__content">
+                        <p>The Footer component is much more straight forward than expected, due to the availabilty of the <span class="code">.social</span> class that can be called on a button, we have the social icon aspect already available to be used. The Footer must always be initiated within a <span class="code">&#10094;footer&#10095;</span> element.</p>
+                        <h3>Design</h3>
+                        <iframe src="starter-kit/footer.html" scrolling="no" onload="resizeIframe(this);" class="documentation__frame"></iframe>
+                        <p>Seperating content within the <span class="code">.footer</span> class can usually be achieved through the usage of the <span class="code">.column--</span> class to specify the width you would like, along with using the <span class="code">.send-left</span> class to ensure that the columns stack correctly.</p>
+                        <h3>Syntax</h3>
+                        <p>If you want to create a copy of the example Footer component above then follow this syntax...</p>
+                        <xmp><footer>
+    <div class="column--25 send-left">
+        <div class="gutter">
+            <h3>List Title</h3>
+            <ul>
+                <li>This</li>
+                <li>is</li>
+                <li>a</li>
+                <li>list</li>
+            </ul>
+        </div>
+    </div>
+    <div class="column--25 send-left">
+        <div class="gutter">
+            <h3>List Title</h3>
+            <ul>
+                <li>This</li>
+                <li>is</li>
+                <li>a</li>
+                <li>list</li>
+            </ul>
+        </div>
+    </div>
+    <div class="column--25 send-left">
+        <div class="gutter">
+            <h3>List Title</h3>
+            <ul>
+                <li>This</li>
+                <li>is</li>
+                <li>a</li>
+                <li>list</li>
+            </ul>
+        </div>
+    </div>
+    <div class="column--25 send-left">
+        <div class="social-icons gutter">
+            <div>
+                <a href="http://www.twitter.com" class="button social social--twitter send-right">Twitter</a>
+            </div>
+            <div>
+                <a href="http://www.twitter.com" class="button social social--facebook send-right">Facebook</a>
+            </div>
+        </div>
+    </div>
+</footer></xmp>
+                        <p>As you can see, the usage of the columns have made positioning much easier, along with the <span class="code">.social</span> class to ensure that the button is displayed as a social link, with the modification classes of <span class="code">.social-twitter</span> and <span class="code">.social-facebook</span> to achieve the necessary icons to become visible.</p>
+                        <h3>Modifiers</h3>
+                        <p>The Footer component currently holds no optional modifiers that can be applied, any changes can be reached using the basic styling classes.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer id="support">
+        <div class="copyright">
+            Developed by Thomas Alderson
+        </div>
+        <div class="support">
+            For support, please contact <a href="mailto:support@starter-kit.com">support@starter-kit.com</a> with the issue.
+        </div>
+    </footer>
+</body>
+
+</html>

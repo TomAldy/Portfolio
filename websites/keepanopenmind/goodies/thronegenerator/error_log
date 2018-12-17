@@ -1,0 +1,5 @@
+[30-Sep-2016 03:48:39 UTC] PHP Notice:  Undefined index: country in /var/www/vhosts/tomaldy.com/httpdocs/websites/keepanopenmind/goodies/thronegenerator/throne.php on line 4
+[30-Sep-2016 03:48:39 UTC] PHP Warning:  imagecreatefromgif(&amp;img_format=gif): failed to open stream: No such file or directory in /var/www/vhosts/tomaldy.com/httpdocs/websites/keepanopenmind/goodies/thronegenerator/throne.php on line 10
+[30-Sep-2016 03:48:39 UTC] PHP Warning:  imagecopy() expects parameter 2 to be resource, boolean given in /var/www/vhosts/tomaldy.com/httpdocs/websites/keepanopenmind/goodies/thronegenerator/throne.php on line 11
+[11-Dec-2016 04:15:55 UTC] PHP Notice:  Undefined index: habbo in /var/www/vhosts/tomaldy.com/httpdocs/websites/keepanopenmind/goodies/thronegenerator/result.php on line 4
+[11-Dec-2016 04:15:55 UTC] PHP Notice:  Undefined index: country in /var/www/vhosts/tomaldy.com/httpdocs/websites/keepanopenmind/goodies/thronegenerator/result.php on line 5
