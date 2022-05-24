@@ -1,6 +1,6 @@
 <?php
-header('Content-Type: text/json');
-$project = (isset($_GET['id']) ? $_GET['id'] : null);
+header('Content-Type: application/json; charset=utf-8');
+$project = ($_GET['id'] ?? null);
 class project {
 	function name($term) {
 		$this->name = $term;

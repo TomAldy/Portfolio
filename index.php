@@ -1,7 +1,8 @@
 <?php
     session_start();
-    $json = file_get_contents('http://tomaldy.com/php/projects.php');
+    $json = file_get_contents('php/projects.php', true);
     $projects = json_decode($json, true);
+    var_dump($projects);
 ?>
 
 <!DOCTYPE html>
@@ -113,7 +114,7 @@
                     <div class="portfolio-icon__label">Who am I?</div>
                 </div>
                 <div class="portfolio-about__content">
-                    <p>I am a hardworking 24 year old Graduate Web Developer, based in Fareham, Hampshire, UK, who enjoys learning new skills and experiences. I have created websites using <strong>HTML</strong>, <strong>CSS</strong>, <strong>JavaScript (Vanilla &amp; jQuery)</strong>, <strong>PHP (Laravel)</strong>, <strong>Ruby (Ruby on Rails)</strong>, <strong>SQL</strong>, <strong>Git Version Control</strong> and <strong>Asp.NET</strong>. I also have experience in creating software packages with <strong>C#</strong>. I'm consistently on the lookout for new projects and challenges to tackle, whether big or small.</p>
+                    <p>I am a hardworking 28 year old Graduate Web Developer, based in Fareham, Hampshire, UK, who enjoys learning new skills and experiences. I have created websites using <strong>HTML</strong>, <strong>CSS</strong>, <strong>JavaScript (Vanilla &amp; jQuery)</strong>, <strong>PHP (Laravel)</strong>, <strong>Ruby (Ruby on Rails)</strong>, <strong>SQL</strong>, <strong>Git Version Control</strong> and <strong>Asp.NET</strong>. I also have experience in creating software packages with <strong>C#</strong>. I'm consistently on the lookout for new projects and challenges to tackle, whether big or small.</p>
                 </div>
             </div>
         </div>
@@ -124,12 +125,10 @@
                 <div class="portfolio-collection__inner">
                     <ul class="portfolio-collection__group">
                         <?php
-                            $i = -1;
-                            foreach ($projects as $project) {
-                                $i++;
+                            for ($i = 0; $i <= count($projects); $i++) {
                                 echo'<a href="project.php?id='.$i.'" class="portfolio-collection__link" data-id="'.$i.'">';
                                     echo'<li class="portfolio-collection__item">';
-                                        echo'<img src="'.$project['image'].'" alt="'.$project['name'].'" class="portfolio-collection__image">';
+                                        echo'<img src="'.$projects[$i]['image'].'" alt="'.$projects[$i]['name'].'" class="portfolio-collection__image">';
                                     echo'</li>';
                                 echo'</a>';
                             }
