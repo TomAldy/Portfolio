@@ -37,17 +37,6 @@ $projects = array();
 // php - PHP
 // responsive - Responsive
 
-// KeepAnOpenMind Website
-$item = new project;
-$item->name('KeepAnOpenMind');
-$item->image('img/websites/keepanopenmind.png');
-$item->type('Website');
-$item->rating(3);
-$item->url('http://'.getenv('HTTP_HOST').'/websites/'.str_replace(' ', '', strtolower($item->name)));
-$item->languages(array('html', 'javascript', 'css', 'ruby', 'mysql', 'php'));
-$item->description('Created in 2010, KeepAnOpenMind was a website based around an online, animated game known as Habbo Hotel. The website introduced new technologies to the Habbo fan-website network using HTML, CSS, JavaScript, PHP Graphic Drawing and AJAX. The graphics are primarily pixel-based and the entire design consists of solid colours with contrasting styles.');
-$projects[] = $item;
-
 // Rareloop ODL Website
 $item = new project;
 $item->name('Rareloop Open Device Lab');
