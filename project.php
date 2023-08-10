@@ -1,6 +1,6 @@
 <?php
     $id = (isset($_GET['id']) ? $_GET['id'] : null);
-    $json = file_get_contents('http://tomaldy.com/php/projects.php?id='.$id);
+    $json = file_get_contents('http://localhost:8000/php/projects.php?id='.$id);
     $project = json_decode($json, true);
 ?>
 
