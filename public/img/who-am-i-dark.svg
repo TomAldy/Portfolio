@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="239" height="149" viewBox="0 0 239 149">
+  <g id="Image" transform="translate(-841 -737)">
+    <path id="Icon_awesome-user" data-name="Icon awesome-user" d="M30.077,34.374A17.187,17.187,0,1,0,12.89,17.187,17.186,17.186,0,0,0,30.077,34.374Zm12.031,4.3H39.866a23.374,23.374,0,0,1-19.577,0H18.046A18.051,18.051,0,0,0,0,56.717V62.3a6.447,6.447,0,0,0,6.445,6.445H53.71A6.447,6.447,0,0,0,60.155,62.3V56.717A18.051,18.051,0,0,0,42.108,38.671Z" transform="translate(930 817.252)" fill="#f0f0f0"/>
+    <g id="Speech_Bubble" data-name="Speech Bubble">
+      <path id="Polygon_1" data-name="Polygon 1" d="M15,0,30,26H0Z" transform="translate(975 828) rotate(180)" fill="#c3c3c3"/>
+      <rect id="Rectangle_2" data-name="Rectangle 2" width="239" height="66" rx="33" transform="translate(841 737)" fill="#c3c3c3"/>
+      <text id="Who_am_I_" data-name="Who am I?" transform="translate(960 781)" fill="#2e2e2e" font-size="30" font-family="Ubuntu"><tspan x="-69.12" y="0">Who am I?</tspan></text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="268" height="144.748" viewBox="0 0 268 144.748">
+  <g id="Image" transform="translate(-828 -2436)">
+    <path id="Icon_awesome-user-graduate" data-name="Icon awesome-user-graduate" d="M42.886,43.049,30.077,55.858,17.267,43.049A18.006,18.006,0,0,0,0,61.014V62.3a6.447,6.447,0,0,0,6.445,6.445H53.708A6.447,6.447,0,0,0,60.153,62.3V61.014A18.006,18.006,0,0,0,42.886,43.049ZM1.826,10.716l.859.2v7.841a3.1,3.1,0,0,0-.121,5.371L.47,32.5c-.228.926.282,1.88,1.02,1.88H7.1c.738,0,1.249-.953,1.02-1.88L6.029,24.13a3.1,3.1,0,0,0-.121-5.371V11.7l8.862,2.135a17.155,17.155,0,1,0,32.494,7.653,16.88,16.88,0,0,0-1.88-7.653l12.93-3.115a2.136,2.136,0,0,0,0-4.23L32.749.31a11.534,11.534,0,0,0-5.331,0L1.826,6.473a2.146,2.146,0,0,0,0,4.243Z" transform="translate(930 2512)" fill="#f0f0f0"/>
+    <g id="Speech_Bubble" data-name="Speech Bubble" transform="translate(0 1699)">
+      <path id="Polygon_1" data-name="Polygon 1" d="M15,0,30,26H0Z" transform="translate(975 828) rotate(180)" fill="#c3c3c3"/>
+      <rect id="Rectangle_2" data-name="Rectangle 2" width="268" height="66" rx="33" transform="translate(828 737)" fill="#c3c3c3"/>
+      <text id="Qualifications" transform="translate(962 781)" fill="#fff" font-size="30" font-family="Ubuntu"><tspan x="-94.425" y="0">Qualifications</tspan></text>
+    </g>
+  </g>
+</svg>
