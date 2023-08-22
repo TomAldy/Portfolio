@@ -9,31 +9,31 @@
 
         <BCollapse id="nav-collapse" is-nav class="navigation">
           <BNavbarNav>
-            <BNavItem>
+            <BNavItem @click="navigateTo('home')">
               <div class="nav-item__icon">
                 <FontAwesomeIcon icon="fa-duotone fa-house" />
               </div>
               <label class="nav-item__label">Home</label>
             </BNavItem>
-            <BNavItem>
+            <BNavItem @click="navigateTo('about-me')">
               <div class="nav-item__icon">
                 <FontAwesomeIcon icon="fa-duotone fa-user" />
               </div>
               <span>About Me</span>
             </BNavItem>
-            <BNavItem>
+            <BNavItem @click="navigateTo('portfolio')">
               <div class="nav-item__icon">
                 <FontAwesomeIcon icon="fa-duotone fa-folder" />
               </div>
               <label class="nav-item__label">Portfolio</label>
             </BNavItem>
-            <BNavItem>
+            <BNavItem @click="navigateTo('qualifications')">
               <div class="nav-item__icon">
                 <FontAwesomeIcon icon="fa-duotone fa-graduation-cap" />
               </div>
               <label class="nav-item__label">Qualifications</label>
             </BNavItem>
-            <BNavItem>
+            <BNavItem @click="navigateTo('message-me')">
               <div class="nav-item__icon">
                 <FontAwesomeIcon icon="fa-duotone fa-paper-plane" />
               </div>
@@ -78,6 +78,7 @@
     @extend .text-center;
     @extend .me-2;
     @extend .me-lg-0;
+    cursor: pointer;
   }
 }
 </style>
@@ -126,6 +127,14 @@ export default defineComponent({
   methods: {
     switchDarkMode() {
       this.$store.dispatch('setDarkMode', !this.darkMode);
+    },
+    navigateTo(location: string) {
+      const element = document.getElementById(location);
+      if(element) {
+        setTimeout(() => {
+          element.scrollIntoView({behavior: 'smooth', block: 'end' });
+        }, 200);
+      }
     }
   }
 })

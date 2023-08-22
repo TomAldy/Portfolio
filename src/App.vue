@@ -1,11 +1,11 @@
 <template>
   <main class="template" :class="{ 'template--dark': darkMode }">
-    <NavigationComponent></NavigationComponent>
+    <NavigationComponent id="home"></NavigationComponent>
     <BannerComponent></BannerComponent>
-    <WhoAmIComponent></WhoAmIComponent>
-    <PortfolioComponent></PortfolioComponent>
-    <QualificationsComponent></QualificationsComponent>
-    <MessageMeComponent></MessageMeComponent>
+    <WhoAmIComponent id="about-me"></WhoAmIComponent>
+    <PortfolioComponent id="portfolio"></PortfolioComponent>
+    <QualificationsComponent id="qualifications"></QualificationsComponent>
+    <MessageMeComponent id="message-me"></MessageMeComponent>
     <CopyrightComponent></CopyrightComponent>
   </main>
 </template>
