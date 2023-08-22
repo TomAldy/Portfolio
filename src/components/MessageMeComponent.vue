@@ -147,7 +147,7 @@ export default defineComponent({
       }
 
       axios.defaults.headers.post['Content-Type'] = 'application/json';
-      axios.post("https://formsubmit.co/ajax/me@tomaldy.com", this.form).then(() => {
+      axios.post("https://formsubmit.co/ajax/a1f45e4a6dde58f1354ab56537717ad9", this.form).then(() => {
         this.resetForm();
         toast.success('Your message has been submitted.',
             {
