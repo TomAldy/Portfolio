@@ -35,10 +35,10 @@ export default defineComponent({
     ...mapState(['darkMode']),
     whoAmIImage() {
       if(!this.darkMode) {
-        return '/img/who-am-i.svg';
+        return '/img/who-am-i.png';
       }
 
-      return '/img/who-am-i-dark.svg';
+      return '/img/who-am-i-dark.png';
     }
   },
 })

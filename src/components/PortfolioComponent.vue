@@ -1,10 +1,5 @@
 <template>
   <div class="portfolio">
-<!--    <MasonryWall :items="portfolio" :column-width="300" :gap="16">-->
-<!--      <template v-slot:default="{ item }">-->
-<!--        <div :style="`background: url('${item.image}'); height: ${item.height}px`" />-->
-<!--      </template>-->
-<!--    </MasonryWall>-->
     <Swiper :slides-per-view="1" navigation :modules="modules" :space-between="0" :breakpoints="{
             760: {
               slidesPerView: 3
@@ -26,8 +21,6 @@
 <style lang="scss">
 @import '@/assets/styles/app';
 @import '~swiper/swiper-bundle.css';
-
-
 
   .portfolio {
     overflow: hidden;

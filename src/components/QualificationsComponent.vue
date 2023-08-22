@@ -109,10 +109,10 @@ export default defineComponent({
     ...mapState(['darkMode', 'qualifications']),
     qualificationsImage() {
       if(!this.darkMode) {
-        return '/img/qualifications.svg';
+        return '/img/qualifications.png';
       }
 
-      return '/img/qualifications-dark.svg';
+      return '/img/qualifications-dark.png';
     }
   },
 })
