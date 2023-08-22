@@ -18,9 +18,13 @@
   }
 
   .who-am-i__description {
-    max-width: 60%;
+    max-width: 90%;
     @extend .mx-auto;
     font-weight: 200;
+
+    @include media-breakpoint-up(lg) {
+      max-width: 60%;
+    }
   }
 }
 </style>
